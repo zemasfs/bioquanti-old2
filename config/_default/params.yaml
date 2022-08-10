@@ -32,11 +32,11 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
-    show_logo: true
+    align: c
+    show_logo: false
     show_language: false
-    show_day_night: true
-    show_search: true
+    show_day_night: false
+    show_search: false
     highlight_active_link: true
 
 # Site footer
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/zemasfs/bioquanti'
     content_dir: content
     branch: master
   avatar:

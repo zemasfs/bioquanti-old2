@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ferramentas | Bioquímica Quantitativa</title>
+    <link>https://bioquanti.netlify.app/ferramentas/</link>
+      <atom:link href="https://bioquanti.netlify.app/ferramentas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ferramentas</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Tue, 05 Jul 2022 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>https://bioquanti.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Ferramentas</title>
+      <link>https://bioquanti.netlify.app/ferramentas/</link>
+    </image>
+    
+    <item>
+      <title>R &amp; Rstudio - Simulações e aprendizado em Bioquímica</title>
+      <link>https://bioquanti.netlify.app/ferramentas/biqbook/</link>
+      <pubDate>Tue, 05 Jul 2022 21:13:14 -0500</pubDate>
+      <guid>https://bioquanti.netlify.app/ferramentas/biqbook/</guid>
+      <description>
+
+
+&lt;p&gt;O material pode ser visualizado pelo &lt;a href=&#34;.\biomol.html&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
