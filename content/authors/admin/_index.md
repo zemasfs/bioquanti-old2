@@ -42,14 +42,7 @@ superuser: true
 title: 
 ---
 
-Página elaborada no intuito de contribuir ao ensino/aprendizagem de conteúdos de Bioquímica e temas correlatos, pelo uso de softwares flexíveis bem estabelecidos (R, RStudio e Jmol), bem como desenvolvido pelo grupo (Sisma).
+  Página elaborada no intuito de contribuir ao ensino/aprendizagem de conteúdos de Bioquímica e temas correlatos, pelo uso de softwares flexíveis bem estabelecidos ([R](https://cran.r-project.org/), [RStudio](https://www.rstudio.com/) e [Jmol](http://jmol.sourceforge.net/)), bem como desenvolvido pelo grupo {{% staticref "uploads/SismaBook/index.html" "newtab" %}}(Sisma){{% /staticref %}}.
 
+  A seleção dos programas já estabelecidos (*R, Rstudio e Jmol*) baseia-se em sua disponibilização como softwares livres, bem como em suas características de flexibilidade , expansibilidade, rápida curva de aprendizado e boa useabilidade, larga aplicabilidade, tanto para ensino como para pesquisa, fácil instalação ou uso mesmo por *browsers* de internete, interatividade, e cobertura, tanto para o ensino presencial como o remoto, ou a EaD.
 
-**R & RStudio**
-
-**Jmol**
-
-**Sisma**
-
-
-<!---{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.--->

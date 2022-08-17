@@ -11,7 +11,7 @@ weight: 130
 active : true
 
 title: Contato
-subtitle:
+subtitle: Prof. Dr. José Maurício SF Silva 
 
 content:
   # Automatically link email and phone or display as text?
@@ -30,7 +30,7 @@ content:
   email: jose.dasilva@unifal-mg.edu.br
   phone: (35) - 3291-1928
   address:
-    street: UNIFAL-MG. Departamento de Bioquímica. Prédio E, sala 209 
+    street: Lab. Bioquímica, Universidade Federal de Alfenas, UNIFAL-MG. Departamento de Bioquímica. Prédio E, sala 209 
     city: Alfenas
     region: MG
     postcode: '37.130-001'
@@ -58,3 +58,4 @@ content:
 design:
   columns: '2'
 ---
+

@@ -1,0 +1,18 @@
+---
+title: "R & Rstudio - Simulações e aprendizado em Bioquímica"
+author: 
+# hidedate: TRUE
+date:  
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+<font size="4">
+
+|   [R](https://cran.r-project.org/) é um software gratuito desenvolvido para computação estatística e gráficos. Pode ser rodado em diversas interfaces de usuário (GUI), dentre as quais destaca-se o [RStudio](https://www.rstudio.com/), um ambiente de desenvolvimento integrado (IDE) também gratuito.
+
+|       Os conteúdos desenvolvidos com **R** e **RStudio** para Bioquímica e temas afins pode ser visualizado [aqui](.\biomol.html)
+
+![](r.logo.jpeg)
+
+</font>

@@ -1,0 +1,14 @@
+---
+title: "Algumas estruturas para o Jmol"
+author: 
+# hidedate: TRUE
+date:  
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+fontesize: 12pt
+---
+<font size="4">
+
+|       Segue abaixo a lista de figuras renderizáveis pelo **Jmol** ordenadas por capítulo do respectivo *ebook*.
+
+</font>
