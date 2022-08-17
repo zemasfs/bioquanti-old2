@@ -1,0 +1,64 @@
+---
+title: "Biomoléculas Apresentadas No Ebook"
+author: 
+# hidedate: TRUE
+date:  
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+fontesize: 12pt
+---
+<font size="4">
+
+|       Segue abaixo a lista de figuras renderizáveis pelo **Jmol** ordenadas por capítulo do respectivo *ebook*.
+</font>
+
+## Capítulo 1 - Água ##
+
+![](h2o.png){width=5%}  [água](.\h2o.png)
+![](h2o-3.png){width=5%}  [3 água](.\h2o-3.png)
+![](h2o-4.png){width=5%}  [5 água](.\h2o-4.png)
+![](h2o-tot.png){width=5%}  [rede de água](.\h2o-tot.png)
+![](hemogl.png){width=5%}  [proteína e água](.\hemogl.png)
+
+## Capítulo 2 - Aminoácidos ##
+
+![](gly.png){width=5%}  [Gly](.\gly.png)
+![](ala.png){width=5%}  [Ala](.\ala.png)
+![](glu.png){width=5%}  [Glu](.\glu.png)
+![](gaba.png){width=5%}  [GABA](.\gaba.png)
+![](pro.png){width=5%}  [Pro](.\pro.png)
+![](his.png){width=5%}  [His](.\his.png)
+![](histam.png){width=5%}  [histamina](.\histam.png)
+![](trp.png){width=5%}  [Trp](.\trp.png)
+![](serotonine.png){width=5%}  [serotonina](.\serotonine.png)
+![](cys.png){width=5%}  [Cys](.\cys.png)
+![](phe.png){width=5%}  [Phe](.\phe.png)
+![](tyr.png){width=5%}  [Tyr](.\tyr.png)
+![](thyroxin.png){width=5%}  [tiroxina-T4](thyroxin.\.png)
+
+## Capítulo 3 - Peptídios ##
+
+![](AlaSer.png){width=5%}  [Ala-Ser](.\AlaSer.png)
+![](cystine.png){width=5%}  [cistina](cystine.\.png)
+![](LeuLeuIleTyr.png){width=5%}  [Leu-Leu-Ile-Tyr](LeuLeuIleTyr.\.png)
+![](glutathione.png){width=5%}  [glutationa](glutathione.\.png)
+![](creatine.png){width=5%}  [creatina](creatine.\.png)
+![](carnitine.png){width=5%}  [carnitina](.\carnitine.png)
+![](aspartame.png){width=5%}  [aspartame](.\aspartame.png)
+![](tetrapep.png){width=5%}  [tetrapeptídio](.\tetrapep.png)
+
+## Capítulo 4 - Proteínas ##
+
+![](1dn3.png){width=5%}  [alfa-hélice](.\1dn3.png)
+
+
+
+
+
+
+
+
+
+
+
+

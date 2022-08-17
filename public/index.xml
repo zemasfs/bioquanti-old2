@@ -34,9 +34,9 @@
     
     <item>
       <title>R &amp; Rstudio - Simulações e aprendizado em Bioquímica</title>
-      <link>https://bioquanti.netlify.app/ferramentas/biqbook/</link>
+      <link>https://bioquanti.netlify.app/project/biqbook/</link>
       <pubDate>Tue, 05 Jul 2022 21:13:14 -0500</pubDate>
-      <guid>https://bioquanti.netlify.app/ferramentas/biqbook/</guid>
+      <guid>https://bioquanti.netlify.app/project/biqbook/</guid>
       <description>
 
 
@@ -46,13 +46,27 @@
     
     <item>
       <title>R &amp; Rstudio - Simulações e aprendizado em Bioquímica</title>
-      <link>https://bioquanti.netlify.app/project/biqbook/</link>
+      <link>https://bioquanti.netlify.app/static/uploads/biqbook/</link>
       <pubDate>Tue, 05 Jul 2022 21:13:14 -0500</pubDate>
-      <guid>https://bioquanti.netlify.app/project/biqbook/</guid>
+      <guid>https://bioquanti.netlify.app/static/uploads/biqbook/</guid>
       <description>
 
 
-&lt;p&gt;O material pode ser visualizado pelo &lt;a href=&#34;.\biomol.html&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;line-block&#34;&gt;  &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R&lt;/a&gt; é um software gratuito desenvolvido para computação estatística e gráficos. Pode ser rodado em diversas interfaces de usuário (GUI), dentre as quais destaca-se o &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt;, um ambiente de desenvolvimento integrado (IDE) também gratuito.&lt;/div&gt;
+&lt;div class=&#34;line-block&#34;&gt;      Os conteúdos desenvolvidos com &lt;strong&gt;R&lt;/strong&gt; e &lt;strong&gt;RStudio&lt;/strong&gt; para Bioquímica e temas afins pode ser visualizado &lt;a href=&#34;.\biomol.html&#34;&gt;aqui&lt;/a&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R &amp; Rstudio - Simulações e aprendizado em Bioquímica</title>
+      <link>https://bioquanti.netlify.app/uploads/biqbook/</link>
+      <pubDate>Tue, 05 Jul 2022 21:13:14 -0500</pubDate>
+      <guid>https://bioquanti.netlify.app/uploads/biqbook/</guid>
+      <description>
+
+
+&lt;div class=&#34;line-block&#34;&gt;  &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R&lt;/a&gt; é um software gratuito desenvolvido para computação estatística e gráficos. Pode ser rodado em diversas interfaces de usuário (GUI), dentre as quais destaca-se o &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt;, um ambiente de desenvolvimento integrado (IDE) também gratuito.&lt;/div&gt;
+&lt;div class=&#34;line-block&#34;&gt;      Os conteúdos desenvolvidos com &lt;strong&gt;R&lt;/strong&gt; e &lt;strong&gt;RStudio&lt;/strong&gt; para Bioquímica e temas afins pode ser visualizado &lt;a href=&#34;.\biomol.html&#34;&gt;aqui&lt;/a&gt;&lt;/div&gt;
 </description>
     </item>
     

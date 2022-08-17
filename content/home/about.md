@@ -12,7 +12,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: Algumas ferramentas para o ensino e aprendizagem em Bioquímica 
+title: Bioquímica Quantitativa
+subtitle: Algumas ferramentas para o ensino e aprendizagem em Bioquímica e conteúdos afins <!--- não aparece --->
 
 # Choose the user profile to display
 # This should be the username (folder name) of a profile in your `content/authors/` folder.

@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: L
+  font_size: l
 
 # SEO
 
@@ -29,7 +29,7 @@ marketing:
 
 # Site header
 
-header:
+header: 
   navbar:
     enable: true
     align: c

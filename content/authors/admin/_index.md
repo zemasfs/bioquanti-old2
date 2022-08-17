@@ -42,7 +42,7 @@ superuser: true
 title: 
 ---
 
-Página elaborada no intuito de contribuir ao ensino/aprendizagem de conteúdos de Bioquímica e temas correlatos, pelo uso de softwares bem estabelecidos (R, RStudio e Jmol), bem como desenvolvido pelo grupo (Sisma).
+Página elaborada no intuito de contribuir ao ensino/aprendizagem de conteúdos de Bioquímica e temas correlatos, pelo uso de softwares flexíveis bem estabelecidos (R, RStudio e Jmol), bem como desenvolvido pelo grupo (Sisma).
 
 
 **R & RStudio**

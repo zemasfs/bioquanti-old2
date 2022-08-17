@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítulo 2 Sistemas fisiológicos de tamponamento | Bioquímica Quantitativa com R</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítulo 2 Sistemas fisiológicos de tamponamento | Bioquímica Quantitativa com R" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítulo 2 Sistemas fisiológicos de tamponamento | Bioquímica Quantitativa com R" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="José Maurício Schneedorf FS" />
+
+
+<meta name="date" content="2021-06-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="biomol.html"/>
+<link rel="next" href="AAcido.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Bioquímica Quantitativa com R</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="biomol.html"><a href="biomol.html"><i class="fa fa-check"></i><b>1</b> Biomoléculas e dimensões</a></li>
+<li class="chapter" data-level="2" data-path="sistemas-fisiológicos-de-tamponamento.html"><a href="sistemas-fisiológicos-de-tamponamento.html"><i class="fa fa-check"></i><b>2</b> Sistemas fisiológicos de tamponamento</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="sistemas-fisiológicos-de-tamponamento.html"><a href="sistemas-fisiológicos-de-tamponamento.html#sistema-acetato"><i class="fa fa-check"></i><b>2.1</b> Sistema acetato</a></li>
+<li class="chapter" data-level="2.2" data-path="sistemas-fisiológicos-de-tamponamento.html"><a href="sistemas-fisiológicos-de-tamponamento.html#sistema-bicarbonato"><i class="fa fa-check"></i><b>2.2</b> Sistema bicarbonato</a></li>
+<li class="chapter" data-level="2.3" data-path="sistemas-fisiológicos-de-tamponamento.html"><a href="sistemas-fisiológicos-de-tamponamento.html#sistema-fosfato"><i class="fa fa-check"></i><b>2.3</b> Sistema fosfato</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="sistemas-fisiológicos-de-tamponamento.html"><a href="sistemas-fisiológicos-de-tamponamento.html#titulação-de-sistemas-em-geral-com-programação-do-r"><i class="fa fa-check"></i><b>2.3.1</b> Titulação de sistemas em geral com programação do R</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="AAcido.html"><a href="AAcido.html"><i class="fa fa-check"></i><b>3</b> Aminoácidos &amp; sequências</a></li>
+<li class="chapter" data-level="4" data-path="Proteinas.html"><a href="Proteinas.html"><i class="fa fa-check"></i><b>4</b> Proteínas</a></li>
+<li class="chapter" data-level="5" data-path="Enzimas.html"><a href="Enzimas.html"><i class="fa fa-check"></i><b>5</b> Enzimas</a></li>
+<li class="chapter" data-level="6" data-path="carboLipid.html"><a href="carboLipid.html"><i class="fa fa-check"></i><b>6</b> Carboidratos e Lipídios</a></li>
+<li class="chapter" data-level="7" data-path="Bioenerg.html"><a href="Bioenerg.html"><i class="fa fa-check"></i><b>7</b> Bioenergética</a></li>
+<li class="chapter" data-level="8" data-path="Glicolise.html"><a href="Glicolise.html"><i class="fa fa-check"></i><b>8</b> Glicólise</a></li>
+<li class="chapter" data-level="9" data-path="redesMet.html"><a href="redesMet.html"><i class="fa fa-check"></i><b>9</b> Redes Metabólicas</a></li>
+<li class="chapter" data-level="10" data-path="acNucl.html"><a href="acNucl.html"><i class="fa fa-check"></i><b>10</b> Ácidos Nucleicos</a></li>
+<li class="chapter" data-level="" data-path="referências.html"><a href="referências.html"><i class="fa fa-check"></i>Referências</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Bioquímica Quantitativa com R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="sistemas-fisiológicos-de-tamponamento" class="section level1" number="2">
+<h1><span class="header-section-number">Capítulo 2</span> Sistemas fisiológicos de tamponamento</h1>
+<div id="sistema-acetato" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Sistema acetato</h2>
+<p>A titulação de um ácido fraco é baseada na equação de Henderson-Hasselbach como segue <span class="citation">(<a href="#ref-po2001henderson" role="doc-biblioref">Po and Senozan 2001</a>)</span> :</p>
+<p><span class="math display" id="eq:hender-hassel">\[\begin{equation}
+pH = pKa + log\frac{[A^-]}{[HA]}
+\tag{2.1}
+\end{equation}\]</span></p>
+<p>Ocorre que podemos tratar os teores de <span class="math inline">\(A^-\)</span> e <span class="math inline">\(HA\)</span> não em termos absolutos, mas como frações, tanto de base (<em>fb</em>), como de ácido (<em>fa</em>), tal que:</p>
+<p><span class="math display" id="eq:frac-tit">\[\begin{equation}
+fa+fb=1
+\tag{2.2}
+\end{equation}\]</span></p>
+<p>Assim, pode-se definir que após uma certa quantidade de base, o valor inicial de <em>HA</em>, em fração unitária, será de <em>1-fb</em>; dessa forma, a expressão de Henderson-Hasselbach pode ser escrita como:</p>
+<p><span class="math display" id="eq:HH-frac">\[\begin{equation}
+pH = pKa + log\frac{fb}{1-fb}
+\tag{2.3}
+\end{equation}\]</span></p>
+<p>A partir dessa dedução, pode-se facilmente relacionar que:</p>
+<p><span class="math display" id="eq:HH-fb">\[\begin{equation}
+fb = \frac{10^{(pH-pKa)}} {1+10^{(pH-pKa)}}
+\tag{2.4}
+\end{equation}\]</span></p>
+<p>E, da mesma forma, pode-se encontrar <em>fa</em> como</p>
+<p><span class="math display" id="eq:HH-fb2">\[\begin{equation}
+fa = 1- fb
+\tag{2.5}
+\end{equation}\]</span></p>
+<p>Resultando em</p>
+<p><span class="math display" id="eq:HH-fa">\[\begin{equation}
+fa = \frac{1}{1+10^{(pH-pKa)}}
+\tag{2.6}
+\end{equation}\]</span></p>
+<p>Dessa forma é possível simular pelo <em>R</em> uma curva de titulação de um ácido fraco qualquer baseando-se em seu valor de pKa. Com exemplo em meio de acetobactérias, podemos exemplificar o tampão acetato, com valor de pKa de 4,75. Para isso utiliza-se a função <code>curve</code> a partir de seus argumentos (<code>args</code>), como segue:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="sistemas-fisiológicos-de-tamponamento.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">args</span>(curve)</span></code></pre></div>
+<pre><code>## function (expr, from = NULL, to = NULL, n = 101, add = FALSE, 
+##     type = &quot;l&quot;, xname = &quot;x&quot;, xlab = xname, ylab = NULL, log = NULL, 
+##     xlim = NULL, ...) 
+## NULL</code></pre>
+<p>Ou, de forma mais simples:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="sistemas-fisiológicos-de-tamponamento.html#cb3-1" aria-hidden="true" tabindex="-1"></a>pKa <span class="ot">=</span> <span class="fl">4.75</span></span>
+<span id="cb3-2"><a href="sistemas-fisiológicos-de-tamponamento.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">curve</span>((<span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span><span class="sc">+</span><span class="dv">10</span><span class="sc">^</span>(x<span class="sc">-</span>pKa))),<span class="dv">0</span>,<span class="dv">14</span>)</span></code></pre></div>
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="Bioqu%C3%ADmica-Quantitativa-com-R_files/figure-html/unnamed-chunk-3-1.png" alt="Relação entre pH (abscissa) e fração ácida (ordenada) para o par conjugado ácido acético/íon acetato." width="672" />
+<p class="caption">
+Figure 2.1: Relação entre pH (abscissa) e fração ácida (ordenada) para o par conjugado ácido acético/íon acetato.
+</p>
+</div>
+</div>
+<div id="sistema-bicarbonato" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Sistema bicarbonato</h2>
+<p>Com o procedimento acima pode-se também simular a curva de titulação para o sistema bicarbonato de tamponamento sanguíneo com base nos valores de pKa do par ácido-base conjugado, apenas somando-se as expressões na Equação <a href="sistemas-fisiológicos-de-tamponamento.html#eq:HH-fa">(2.6)</a>, tal que:</p>
+<p><span class="math display" id="eq:HHbic">\[\begin{equation}
+fa = \frac{1}{1+10^{(pH-pKa1)}}+ \frac{1}{1+10^{(pH-pKa2)}}
+\tag{2.7}
+\end{equation}\]</span></p>
+<p>Assim,</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="sistemas-fisiológicos-de-tamponamento.html#cb4-1" aria-hidden="true" tabindex="-1"></a>pKa1 <span class="ot">=</span> <span class="fl">6.37</span></span>
+<span id="cb4-2"><a href="sistemas-fisiológicos-de-tamponamento.html#cb4-2" aria-hidden="true" tabindex="-1"></a>pKa2 <span class="ot">=</span> <span class="fl">10.20</span></span>
+<span id="cb4-3"><a href="sistemas-fisiológicos-de-tamponamento.html#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">curve</span>((<span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span><span class="sc">+</span><span class="dv">10</span><span class="sc">^</span>(x<span class="sc">-</span>pKa1)))<span class="sc">+</span><span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span><span class="sc">+</span><span class="dv">10</span><span class="sc">^</span>(x<span class="sc">-</span>pKa2)),<span class="dv">0</span>,<span class="dv">14</span>)</span></code></pre></div>
+<div class="figure"><span id="fig:titAcet"></span>
+<img src="Bioqu%C3%ADmica-Quantitativa-com-R_files/figure-html/titAcet-1.png" alt="Relação entre pH (abscissa) e fração ácida (ordenada) para o par conjugado ácido carbônico/íon bicarbonato." width="672" />
+<p class="caption">
+Figure 2.2: Relação entre pH (abscissa) e fração ácida (ordenada) para o par conjugado ácido carbônico/íon bicarbonato.
+</p>
+</div>
+<p>O gráfico da Figura <a href="sistemas-fisiológicos-de-tamponamento.html#fig:titAcet">2.2</a> pode ser armazenado em formatos, utilizando-se, por exemplo, o comando <code>dev.copy</code>:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="sistemas-fisiológicos-de-tamponamento.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dev.copy</span>(pdf,<span class="st">&quot;titBicarb.pdf&quot;</span>,<span class="at">width=</span><span class="dv">6</span>, <span class="at">height=</span><span class="dv">3</span>) <span class="co"># alternativamente, bmp, jpeg, tiff, svg, png</span></span></code></pre></div>
+<p>E é claro que, partindo-se dos argumentos da função <code>curve</code> acima, e da flexibilidade que o pacote interno <em>Graphics</em> do R possibilita, pode-se elaborar uma curva mais complexa, como segue:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-1" aria-hidden="true" tabindex="-1"></a>pKa1 <span class="ot">=</span> <span class="fl">6.37</span></span>
+<span id="cb6-2"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-2" aria-hidden="true" tabindex="-1"></a>pKa2 <span class="ot">=</span> <span class="fl">10.20</span></span>
+<span id="cb6-3"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">curve</span>((<span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span><span class="sc">+</span><span class="dv">10</span><span class="sc">^</span>(x<span class="sc">-</span>pKa1)))<span class="sc">+</span><span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span><span class="sc">+</span><span class="dv">10</span><span class="sc">^</span>(x<span class="sc">-</span>pKa2)),<span class="dv">0</span>,<span class="dv">14</span>,</span>
+<span id="cb6-4"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab=</span><span class="st">&quot;pH&quot;</span>,<span class="at">ylab=</span><span class="st">&quot;fa&quot;</span>,</span>
+<span id="cb6-5"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">main=</span><span class="st">&quot;Titulação de Ácido carbônico, H2CO3/HCO3-&quot;</span>,</span>
+<span id="cb6-6"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">type=</span><span class="st">&quot;o&quot;</span>, <span class="at">n=</span><span class="dv">50</span>,<span class="at">lwd=</span><span class="dv">2</span>,<span class="at">lty=</span><span class="st">&quot;dotted&quot;</span>,</span>
+<span id="cb6-7"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">pch=</span><span class="dv">3</span>,<span class="at">col=</span><span class="st">&quot;blue&quot;</span>,<span class="at">cex=</span><span class="fl">1.2</span>) <span class="co"># gráfico de titulação</span></span>
+<span id="cb6-8"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(<span class="fl">4.7</span>,<span class="fl">1.3</span>,<span class="st">&quot;pKa = 6,37&quot;</span>) <span class="co"># inserção de texto no gráfico</span></span>
+<span id="cb6-10"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(<span class="dv">9</span>,<span class="fl">0.3</span>,<span class="st">&quot;pKa = 10,20&quot;</span>)</span>
+<span id="cb6-11"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="fl">0.5</span>,<span class="dv">0</span>, <span class="at">lty=</span><span class="st">&quot;dotted&quot;</span>) <span class="co"># linha pontilhada em intercepto e inclinação específicos</span></span>
+<span id="cb6-12"><a href="sistemas-fisiológicos-de-tamponamento.html#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="fl">1.5</span>,<span class="dv">0</span>, <span class="at">lty=</span><span class="st">&quot;dotted&quot;</span>)</span></code></pre></div>
+<div class="figure"><span id="fig:unnamed-chunk-5"></span>
+<img src="Bioqu%C3%ADmica-Quantitativa-com-R_files/figure-html/unnamed-chunk-5-1.png" alt="Variação de pH com redução da fração ácida em sistema bicarbonato." width="672" />
+<p class="caption">
+Figure 2.3: Variação de pH com redução da fração ácida em sistema bicarbonato.
+</p>
+</div>
+<p>A título de ilustração é possível “recuperar” o valor de <em>pKa</em> fisiológico acima, ou seja, <em>pKa1</em>, utilizando-se o comando <code>locator()</code>. Como trata-se de um ponto apenas no gráfico, basta digitar o código <code>locator(1)</code> e clicar com o botão esquerdo do mouse no ponto da curva correpondente à fração de 0,5 para <em>fa</em>.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="sistemas-fisiológicos-de-tamponamento.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">locator</span>(<span class="dv">1</span>) <span class="co"># para mais pontos no gráfico, basta aumentar o valor entre parênteses</span></span></code></pre></div>
+<p>Observe que à medida em que o valor de <em>pH</em> aproxima-se do de <em>pKa</em>, a crescente variação em <em>fa</em> parece afetar cada vez menos a variação em pH. Isto é a “alma” do sistema tampão, que permite aos organismos resistirem a variações de pH tanto quanto essas estiverem próximas do valor de <em>pKa</em> correspondentes (bicarbonato, fosfato, proteínas).</p>
+<p>Enquanto o sistema bicarbonato possui dois valores de pKa<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>
+, um dos quais na faixa de tamponamento fisiológico extracelular, o sistema fosfato que atua intracelularmente possui três valores de pKa, embora também atuando em apenas uma faixa fisiológica.</p>
+</div>
+<div id="sistema-fosfato" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Sistema fosfato</h2>
+<p>Da mesma forma que simulado para o sistema bicarbonato, podemos elaborar uma curva de titulação para o sistema fosfato de tamponamento, dessa vez considerando seus três valores de pKa correspondentes a cada dissociação do ácido triprótico. Como dantes, a expressão que define a fração <em>fa</em> deverá ser tomada como uma soma algébrica, como segue:</p>
+<p><span class="math inline">\(fa = \frac{1}{1+10^{(pH-pKa1)}}+ \frac{1}{1+10^{(pH-pK2)}}+\frac{1}{1+10^{(pH-pKa3)}}\)</span></p>
+<p>No <em>R</em> isso pode ser feito como abaixo:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-1" aria-hidden="true" tabindex="-1"></a>pKa1<span class="ot">=</span><span class="fl">2.2</span></span>
+<span id="cb8-2"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-2" aria-hidden="true" tabindex="-1"></a>pKa2<span class="ot">=</span><span class="fl">7.2</span></span>
+<span id="cb8-3"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-3" aria-hidden="true" tabindex="-1"></a>pKa3<span class="ot">=</span><span class="fl">12.7</span></span>
+<span id="cb8-4"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">curve</span>((<span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span><span class="sc">+</span><span class="dv">10</span><span class="sc">^</span>(x<span class="sc">-</span>pKa1)))<span class="sc">+</span></span>
+<span id="cb8-6"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-6" aria-hidden="true" tabindex="-1"></a>      (<span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span><span class="sc">+</span><span class="dv">10</span><span class="sc">^</span>(x<span class="sc">-</span>pKa2)))<span class="sc">+</span></span>
+<span id="cb8-7"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-7" aria-hidden="true" tabindex="-1"></a>      (<span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span><span class="sc">+</span><span class="dv">10</span><span class="sc">^</span>(x<span class="sc">-</span>pKa3))),</span>
+<span id="cb8-8"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-8" aria-hidden="true" tabindex="-1"></a>      <span class="at">xlim=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">14</span>),</span>
+<span id="cb8-9"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-9" aria-hidden="true" tabindex="-1"></a>      <span class="at">xlab=</span><span class="st">&quot;pH&quot;</span>,<span class="at">ylab=</span><span class="st">&quot;fa&quot;</span>,</span>
+<span id="cb8-10"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-10" aria-hidden="true" tabindex="-1"></a>      <span class="at">main=</span><span class="st">&quot;Titulação de tampão fosfato&quot;</span>,</span>
+<span id="cb8-11"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">sub =</span> <span class="st">&quot; As linhas pontilhadas cruzam os valores de pKa&quot;</span></span>
+<span id="cb8-12"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-12" aria-hidden="true" tabindex="-1"></a>                   )</span>
+<span id="cb8-13"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">v=</span><span class="fu">c</span>(<span class="fl">2.2</span>,<span class="fl">7.2</span>,<span class="fl">12.7</span>),<span class="at">col=</span><span class="fu">c</span>(<span class="st">&quot;blue&quot;</span>,<span class="st">&quot;red&quot;</span>,<span class="st">&quot;green&quot;</span>),<span class="at">lty=</span><span class="st">&quot;dotted&quot;</span>) <span class="co"># adição de linhas verticais marcando os valores de pKa</span></span>
+<span id="cb8-14"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-14" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(<span class="fl">1.6</span>,<span class="fl">2.5</span>,<span class="st">&quot;pKa1&quot;</span>) </span>
+<span id="cb8-15"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(<span class="fl">6.5</span>,<span class="fl">1.5</span>,<span class="st">&quot;pKa2&quot;</span>)</span>
+<span id="cb8-16"><a href="sistemas-fisiológicos-de-tamponamento.html#cb8-16" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(<span class="fl">11.8</span>,<span class="fl">0.5</span>,<span class="st">&quot;pKa3&quot;</span>)</span></code></pre></div>
+<div class="figure"><span id="fig:unnamed-chunk-7"></span>
+<img src="Bioqu%C3%ADmica-Quantitativa-com-R_files/figure-html/unnamed-chunk-7-1.png" alt="Curva de titulação em sistema fosfato de tamponamento." width="672" />
+<p class="caption">
+Figure 2.4: Curva de titulação em sistema fosfato de tamponamento.
+</p>
+</div>
+<div id="titulação-de-sistemas-em-geral-com-programação-do-r" class="section level3" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Titulação de sistemas em geral com programação do R</h3>
+<p>As operações acima podem ser automatizadas não apenas para o tampão fosfato, mas para qualquer composto sob dissociação em meio aquoso, não importando o número de prótons envolvidos. Para isso, é necessário:</p>
+<ol style="list-style-type: decimal">
+<li><p>Definir uma <em>função</em> do <em>R</em> que contenha os parâmetros e a operação desejada.</p></li>
+<li><p>Incluir na função um <em>loop</em> que permita repetir a operação até exaurido o número de prótons do composto.</p></li>
+<li><p>Definir um vetor do <em>R</em> contendo os valores dos pKas do composto.</p></li>
+<li><p>Definir a expressão de <em>curva</em> que viabilize a simulação.</p></li>
+</ol>
+<p>Abaixo é apresentado um modelo de código que permite a simulação para o tampão fosfato.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Define função e plot de titulação</span></span>
+<span id="cb9-2"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-2" aria-hidden="true" tabindex="-1"></a>fa <span class="ot">=</span> <span class="cf">function</span>(pH,pKa) {</span>
+<span id="cb9-3"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-3" aria-hidden="true" tabindex="-1"></a>  x<span class="ot">=</span><span class="dv">0</span></span>
+<span id="cb9-4"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(pKa)) {</span>
+<span id="cb9-5"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-5" aria-hidden="true" tabindex="-1"></a>    x <span class="ot">=</span> x<span class="sc">+</span><span class="dv">1</span><span class="sc">/</span>(<span class="dv">1</span> <span class="sc">+</span> <span class="dv">10</span><span class="sc">^</span>(pH <span class="sc">-</span> pKa[i]))}</span>
+<span id="cb9-6"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(x)</span>
+<span id="cb9-7"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb9-8"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-8" aria-hidden="true" tabindex="-1"></a>pKa<span class="ot">=</span><span class="fu">c</span>(<span class="fl">2.2</span>,<span class="fl">7.2</span>,<span class="fl">12.7</span>)</span>
+<span id="cb9-9"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">curve</span>(<span class="fu">fa</span>(x,pKa),<span class="dv">1</span>,<span class="dv">14</span>, <span class="at">xlab=</span><span class="st">&quot;pH&quot;</span>, <span class="at">ylab=</span><span class="st">&quot;fa&quot;</span>,</span>
+<span id="cb9-10"><a href="sistemas-fisiológicos-de-tamponamento.html#cb9-10" aria-hidden="true" tabindex="-1"></a>      <span class="at">col=</span><span class="dv">2</span>)</span></code></pre></div>
+<div class="figure"><span id="fig:unnamed-chunk-8"></span>
+<img src="Bioqu%C3%ADmica-Quantitativa-com-R_files/figure-html/unnamed-chunk-8-1.png" alt="Curva de titulação para o tampão fosfato, tal como obtida por recurso de programação no R." width="672" />
+<p class="caption">
+Figure 2.5: Curva de titulação para o tampão fosfato, tal como obtida por recurso de programação no R.
+</p>
+</div>
+
+</div>
+</div>
+</div>
+<h3>Referências</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-po2001henderson" class="csl-entry">
+Po, Henry N, and NM Senozan. 2001. <span>“The Henderson-Hasselbalch Equation: Its History and Limitations.”</span> <em>Journal of Chemical Education</em> 78 (11): 1499.
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>Obs: o valor de pKa do sistema bicarbonato é de 6,8 quando considerado o <span class="math inline">\(CO_2\)</span> como fonte de ácido carbônico <span class="math inline">\(H_2CO_3\)</span> em sua reação com <span class="math inline">\(H_2O\)</span>, como por exemplo, para determinação de parâmetros arteriais em analisador hospitalar (<span class="math inline">\(CO_2\)</span>, <span class="math inline">\(HCO_3^-\)</span>, <span class="math inline">\(O_2\)</span>).<a href="sistemas-fisiológicos-de-tamponamento.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="biomol.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="AAcido.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Bioquímica Quantitativa com R.pdf", "Bioquímica Quantitativa com R.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
