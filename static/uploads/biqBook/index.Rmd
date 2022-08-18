@@ -9,12 +9,12 @@ tags: ["R Markdown", "plot", "regression"]
 
 <font size="4">
 
-|   [R](https://cran.r-project.org/) é um software gratuito desenvolvido para computação estatística e gráficos. Pode ser rodado em diversas interfaces de usuário (GUI), dentre as quais destaca-se o [RStudio](https://www.rstudio.com/), um ambiente de desenvolvimento integrado (IDE) também gratuito.
+|   [R](https://cran.r-project.org/) é um software gratuito desenvolvido para computação estatística e gráficos. Pode ser rodado em diversas interfaces de usuário (GUI), dentre as quais destaca-se o [RStudio](https://www.rstudio.com/), um ambiente de desenvolvimento integrado (IDE) também gratuito. Também há uma *versão online* gratuita do programa, acessível pelo sítio [RStudio Cloud](https://rstudio.cloud/).
 
-|       Os conteúdos desenvolvidos com **R** e **RStudio** para Bioquímica e temas afins pode ser visualizado [aqui](.\biomol.html).
+|       Os conteúdos desenvolvidos com **R** e **RStudio** para **Bioquímica** e temas afins podem ser visualizados [aqui](.\biomol.html).
 
 ## Uma dica ! ##
-|       Para reproduzir os comandos do conteúdo, basta clicar no canto superior direito de um campo de trecho de código contendo um ícone de cópia, colando-o em uma sessão do RStudio ou mesmo em sua versão online e também gratuita, [RStudio cloud](https://login.rstudio.cloud/).
+|       Para reproduzir os comandos de um conteúdo, basta clicar no canto superior direito do campo de trecho de código contendo um ícone de cópia, colando-o em uma sessão do RStudio ou em sua versão online [RStudio Cloud](https://login.rstudio.cloud/).
 
 ![](r.logo.jpeg){width=20%}
 ![](rstudio.png){width=20%}
