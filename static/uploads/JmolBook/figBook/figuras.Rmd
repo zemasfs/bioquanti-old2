@@ -109,6 +109,8 @@ fontesize: 12pt
 ![](maltotriose.png){width=5%}  [maltotriose ](.\maltotriose.png){target="\_blank"}
 ![](amilopectina.png){width=5%}  [amilopectina ](.\amilopectina.png){target="\_blank"}
 ![](amilose.png){width=5%}  [amilose ](.\amilose.png){target="\_blank"}
-k
-
+![](glicogenio.png){width=5%}  [glicogênio](.\glicogenio.png){target="\_blank"}
+![](celulose.png){width=5%}  [celulose](.\celulose.png){target="\_blank"}
+![](quitina.png){width=5%}  [quitina ](.\quitina.png){target="\_blank"}
+![](hialuronico.png){width=5%}  [ácido hialurônico](.\hialuronico.png){target="\_blank"}
 
