@@ -18,7 +18,7 @@ de translação e rotação nas moléculas, ampliação visual, cálculos de dis
 uma pasta de diretório contendo seus arquivos, como a partir de um disco rígido ou mídia removível (pendrive).
 
 |       Os conteúdos desenvolvidos com **Jmol** para **Bioquímica** e temas afins podem ser visualizados neste [ebook](.\BioqEstrutJmol.pdf).
-|       As figuras dinâmicas contidas no **ebook** podem ser obtidas nesse [link](.\figBook\figuras.html), separadas por capítulo. Também pode-se obter o [aquivo comprimido](.\figBook.zip) contendo todas as imagens.
+|       As estruturas contidas no **ebook** podem ser obtidas nesse [link](.\figBook\figuras.html), separadas por capítulo. Também pode-se obter o [aquivo comprimido](.\figBook\figBook.zip) contendo todas as estruturas. Pode-se observá-las de forma estática num visualizador de imagens, ou tridimensionalmente pelo *Jmol*.
 
 ## Uma dica ! ## 
 

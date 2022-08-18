@@ -9,56 +9,64 @@ fontesize: 12pt
 ---
 <font size="4">
 
-|       Segue abaixo a lista de figuras renderizáveis pelo **Jmol** ordenadas por capítulo do respectivo *ebook*.
+|       Segue abaixo a lista de figuras renderizáveis pelo **Jmol** ordenadas por capítulo do respectivo *ebook*. As figuras estão disponíveis também num único [arquivo comprimido](.\figBook.zip).
+
 </font>
 
 ## Capítulo 1 - Água ##
 
-![](h2o.png){width=5%}  [água](.\h2o.png)
-![](h2o-3.png){width=5%}  [3 água](.\h2o-3.png)
-![](h2o-4.png){width=5%}  [5 água](.\h2o-4.png)
-![](h2o-tot.png){width=5%}  [rede de água](.\h2o-tot.png)
-![](hemogl.png){width=5%}  [proteína e água](.\hemogl.png)
+![](h2o.png){width=5%}  [água](.\h2o.png){target="\_blank"}
+![](h2o-3.png){width=5%}  [3 água](.\h2o-3.png){target="\_blank"}
+![](h2o-4.png){width=5%}  [5 água](.\h2o-4.png){target="\_blank"}
+![](h2o-tot.png){width=5%}  [rede de água](.\h2o-tot.png){target="\_blank"}
+![](hemogl.png){width=5%}  [proteína e água](.\hemogl.png){target="\_blank"}
 
 ## Capítulo 2 - Aminoácidos ##
 
-![](gly.png){width=5%}  [Gly](.\gly.png)
-![](ala.png){width=5%}  [Ala](.\ala.png)
-![](glu.png){width=5%}  [Glu](.\glu.png)
-![](gaba.png){width=5%}  [GABA](.\gaba.png)
-![](pro.png){width=5%}  [Pro](.\pro.png)
-![](his.png){width=5%}  [His](.\his.png)
-![](histam.png){width=5%}  [histamina](.\histam.png)
-![](trp.png){width=5%}  [Trp](.\trp.png)
-![](serotonine.png){width=5%}  [serotonina](.\serotonine.png)
-![](cys.png){width=5%}  [Cys](.\cys.png)
-![](phe.png){width=5%}  [Phe](.\phe.png)
-![](tyr.png){width=5%}  [Tyr](.\tyr.png)
-![](thyroxin.png){width=5%}  [tiroxina-T4](.\thyroxin.png)
+![](gly.png){width=5%}  [Gly](.\gly.png){target="\_blank"}
+![](ala.png){width=5%}  [Ala](.\ala.png){target="\_blank"}
+![](glu.png){width=5%}  [Glu](.\glu.png){target="\_blank"}
+![](gaba.png){width=5%}  [GABA](.\gaba.png){target="\_blank"}
+![](pro.png){width=5%}  [Pro](.\pro.png){target="\_blank"}
+![](his.png){width=5%}  [His](.\his.png){target="\_blank"}
+![](histam.png){width=5%}  [histamina](.\histam.png){target="\_blank"}
+![](trp.png){width=5%}  [Trp](.\trp.png){target="\_blank"}
+![](serotonine.png){width=5%}  [serotonina](.\serotonine.png){target="\_blank"}
+![](cys.png){width=5%}  [Cys](.\cys.png){target="\_blank"}
+![](phe.png){width=5%}  [Phe](.\phe.png){target="\_blank"}
+![](tyr.png){width=5%}  [Tyr](.\tyr.png){target="\_blank"}
+![](thyroxin.png){width=5%}  [tiroxina-T4](.\thyroxin.png){target="\_blank"}
 
 ## Capítulo 3 - Peptídios ##
 
-![](AlaSer.png){width=5%}  [Ala-Ser](.\AlaSer.png)
-![](cystine.png){width=5%}  [cistina](.\cystine.png)
-![](LLIT.png){width=5%}  [Leu-Leu-Ile-Tyr](.\LLIT.png)
-![](glutathione.png){width=5%}  [glutationa](.\glutathione.png)
-![](creatine.png){width=5%}  [creatina](.\creatine.png)
-![](carnitine.png){width=5%}  [carnitina](.\carnitine.png)
-![](aspartame.png){width=5%}  [aspartame](.\aspartame.png)
-![](tetrapep.png){width=5%}  [tetrapeptídio](.\tetrapep.png)
+![](AlaSer.png){width=5%}  [Ala-Ser](.\AlaSer.png){target="\_blank"}
+![](cystine.png){width=5%}  [cistina](.\cystine.png){target="\_blank"}
+![](LLIT.png){width=5%}  [Leu-Leu-Ile-Tyr](.\LLIT.png){target="\_blank"}
+![](glutathione.png){width=5%}  [glutationa](.\glutathione.png){target="\_blank"}
+![](creatine.png){width=5%}  [creatina](.\creatine.png){target="\_blank"}
+![](carnitine.png){width=5%}  [carnitina](.\carnitine.png){target="\_blank"}
+![](aspartame.png){width=5%}  [aspartame](.\aspartame.png){target="\_blank"}
+![](tetrapep.png){width=5%}  [tetrapeptídio](.\tetrapep.png){target="\_blank"}
 
 ## Capítulo 4 - Proteínas ##
 
-![](1dn3.png){width=5%}  [alfa-hélice](.\1dn3.png)
-
-
-
-
-
-
-
-
-
-
-
+![](1al1.png){width=5%}  [alfa-hélice](.\1al1.png){target="\_blank"}
+![](1acj.png){width=5%}  [1acj-acetil colinesterase](.\1acj.png){target="\_blank"}
+![](1lev.png){width=5%}  [1lev-frutose-1,6-bifosfatase](.\1lev.png){target="\_blank"}
+![](8cat.png){width=5%}  [8cat - catalase](.\8cat.png){target="\_blank"}
+![](2pec.png){width=5%}  [2pec - pectato liase](.\2pec.png){target="\_blank"}
+![](2lyz.png){width=5%}  [2lyz - lisozima](.\2lyz.png){target="\_blank"}
+![](1yme.png){width=5%}  [1yme - carboxipeptidase (grampo beta)](.\1yme.png){target="\_blank"}
+![](1bmw.png){width=5%}  [1bmw - fibronectina (sanduiche beta)](.\1bmw.png){target="\_blank"}
+![](1kt7.png){width=5%}  [1kt7 - proteína ligadora de retinol](.\1kt7.png){target="\_blank"}
+![](3lay.png){width=5%}  [3lay - proteína ligadora de zinco (barril alfa)](.\3lay.png){target="\_blank"}
+![](1kt7.png){width=5%}  [1kt7 - proteína ligadora de retinol(barril beta)](.\1kt7.png){target="\_blank"}
+![](1lcc.png){width=5%}  [1lcc - repressor lac (hélice-volta-hélice)](.\1lcc.png){target="\_blank"}
+![](1aay.png){width=5%}  [1aay - transcrição-DNA (dedo de zinco)](.\1aay.png){target="\_blank"}
+![](1ysa.png){width=5%}  [1ysa - proteína-DNA (zíper de Leu)](.\1ysa.png){target="\_blank"}
+![](1cll.png){width=5%}  [1cll - calmodulina (mão EF)](.\1cll.png){target="\_blank"}
+![](1a2t.png){width=5%}  [1a2t - nuclease de estafilococo (chave grega)](.\1a2t.png){target="\_blank"}
+![](9pap.png){width=5%}  [9pap - papaína](.\9pap.png){target="\_blank"}
+![](1mbo.png){width=5%}  [1mbo - mioglobina](.\1mbo.png){target="\_blank"}
+k
 
