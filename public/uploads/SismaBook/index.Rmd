@@ -11,11 +11,11 @@ tags: ["R Markdown", "plot", "regression"]
 
 ![ ](estacion.png){width=40%}
 
-|       **Sisma** é um programa elaborado com a proposta inicial de gerar uma imagem dinâmica de transformações ocorridas entre reagentes e produtos de uma rede, e pela simples inserção de compostos (*object*) interligados por setas (*path*). Nesse sentido, o programa foi desenhado para facilitar a inserção de objetos e vias metabólicas, simulando o que se desenharia com um lápis e uma folha de papel em branco. 
+|       **Sisma** é um programa elaborado com a proposta de gerar uma imagem dinâmica de transformações ocorridas entre reagentes e produtos em uma rede, e pela simples inserção de compostos (*object*) interligados por setas (*path*). Nesse sentido, o programa foi desenhado para facilitar a inserção de reagentes e vias metabólicas, simulando o que se desenharia com um lápis e uma folha de papel em branco. 
 
-|       O programa escrito em Java permite visualizar dinamicamente e avaliar a transformação de reagentes e produtos de uma reação, fluxo metabólico, ou mapas complexos. O nome Sisma refere-se ao acrônimo para *Sistema de Mapas Autocatalíticos*, e permite uma simulação visual e quantitativa num mapa bidimensional, de mudanças que ocorrem em cadeia ou rede, pela percepção de variações de cores e matizes nos objetos envolvidos em cada tranformação a partir de equação introduzida pelo usuário.
+|       O programa foi escrito em *Java* e permite visualizar e avaliar dinamicamente a transformação de reagentes e produtos em uma reação isolada, um fluxo metabólico, ou mapas complexos. O nome *Sisma* refere-se ao acrônimo para *Sistema de Mapas Autocatalíticos*, e permite uma simulação visual e quantitativa num mapa bidimensional, pela percepção de variações de matizes nos objetos envolvidos em cada tranformação a partir de equação introduzida pelo usuário.
 
-|       Para o estudo dessas relações, o programa permite a inserção de objetos, vias, figuras e anotações no mapa, armazenamento e leitura de mapas, simulações por gráfico de pontos e linhas para cada objeto simultaneamente às que ocorrem no próprio mapa, pausa, interrupção, retrocesso e avanço da visualização a qualquer momento da simulação, geração automática e exportação de planilha contendo os valores numéricos de cada objeto transformado em cada instante, e impressão instantânea do mapa no ponto de uma transformação desejada. Dessa forma, o programa torna dinâmica a visualização de forças e de fluxos que são apresentados de forma estática em representações bidimensionais de mesma natureza em Bioquímica. 
+|       Para o estudo dessas relações, o programa permite a inserção de objetos, vias, figuras e anotações no mapa, armazenamento e leitura de mapas, simulações por gráfico de pontos e linhas para cada objeto simultaneamente às que ocorrem no próprio mapa, pausa, interrupção, retrocesso e avanço da visualização a qualquer momento da simulação, geração automática e exportação de planilha contendo os valores numéricos de cada objeto transformado em cada instante, e impressão instantânea do mapa no ponto de uma transformação desejada. Dessa forma, o programa torna dinâmica a visualização de forças e de fluxos que são apresentados de forma estática em representações bidimensionais de mesma natureza em Bioquímica e áreas afins. 
 
 ![ ](RP1.png){width=40%}
 ![ ](rede.png){width=40%}
@@ -25,12 +25,12 @@ tags: ["R Markdown", "plot", "regression"]
 
 |       O arquivo comprimido contendo o programa pode ser obtido neste [link](.\Sisma.zip)
 
-## Dica rápida de uso ##
-|       Para utilizar o **Sisma** baixe o arquivo do link acima e descompacte-o no seu PC. Não requer instalação, apenas [*JAVA*](https://www.java.com/pt-BR/download/manual.jsp). Para executá-lo, vá para a pasta "dist" e clique no arquivo de Java ("Sisma_Realese_1.jar").
+## Dica rápida de uso ! ##
+|       Para utilizar o **Sisma** baixe o arquivo do link acima e descompacte-o no seu PC. Não requer instalação, apenas [*JAVA*](https://www.java.com/pt-BR/download/manual.jsp). Para executá-lo, vá para a pasta "dist" e clique no arquivo de Java (*"Sisma_Realese_1.jar"*).
 
 ## Tutorial ##
 
-|       Para começar a inserir *objetos* e *caminhos* no **Sisma** pode-se seguir esse [tutorial](.\sisma.tut.pdf). 
+|       Para inserir *objetos* e *caminhos* no **Sisma**, e elaborar reações, cadeias ou redes metabólicas dinâmicas, pode-se seguir esse [tutorial](.\sisma.tut.pdf). 
 
 ## Alguns exemplos ##
 

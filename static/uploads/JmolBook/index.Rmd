@@ -9,16 +9,22 @@ fontesize: 12pt
 ---
 <font size="4">
 
+![](jmol.png){width=20%}
+
 |       O [Jmol](http://jmol.sourceforge.net/) é um programa de código-fonte e distribuição livres para representação tridimensonal de átomos e moléculas, sendo oferecido sob a licença GLPL (GNU Lesser General Public License). O Jmol permite uma diversidade de renderizações cromáticas, movimentos
 de translação e rotação nas moléculas, ampliação visual, cálculos de distância, ângulos, estruturas e superfícies, otimizações moleculares, e animações, dentre outros.
 
-|       Trata-se de um programa multiplataforma (Windows, Mac OS X, Linux, Unix) elaborado em ambiente Java, e que pode ser executado tanto em versão fechada (standalone), como integrado a outras aplicações em Java, ou ainda junto a browsers de internet por auxílio de um applet. Jmol pode rodar tanto a partir de
+|       O programa é multiplataforma (Windows, Mac OS X, Linux, Unix) elaborado em ambiente Java, e que pode ser executado tanto em versão fechada (standalone), como integrado a outras aplicações em Java, ou ainda junto a *browsers* de internet por auxílio de um applet. *Jmol* pode rodar tanto a partir de
 uma pasta de diretório contendo seus arquivos, como a partir de um disco rígido ou mídia removível (pendrive).
 
-|       Os conteúdos desenvolvidos com **Jmol** para Bioquímica e temas afins podem ser visualizados neste [ebook](.\BioqEstrutJmol.pdf).
-|       As figuras dinâmicas contidas no **ebook** podem ser obtidas nesse [link](.\figBook\figuras.html)
+|       Os conteúdos desenvolvidos com **Jmol** para **Bioquímica** e temas afins podem ser visualizados neste [ebook](.\BioqEstrutJmol.pdf).
+|       As figuras dinâmicas contidas no **ebook** podem ser obtidas nesse [link](.\figBook\figuras.html), separadas por capítulo. Também pode-se obter o [aquivo comprimido](.\figBook.zip) contendo todas as imagens.
 
-![](jmol.png){width=20%}
+## Uma dica ! ## 
+
+|       O *Jmol* pode ser acessado *online* por diversos sítios de Biologia Estrutural, tais como [Jmol User Design Environment (JUDE)](https://cbm.msoe.edu/modelingResources/jmolUserDesignEnvironment/#forward){target="\_blank"} do *Center For Biomolecular Modelling (CBM-SOE)* da *Milwaukee School of Engineering*.
+
+![](jmol2.png){width=20%}
 
 
 </font>
