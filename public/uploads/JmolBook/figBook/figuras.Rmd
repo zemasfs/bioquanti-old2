@@ -119,8 +119,26 @@ fontesize: 12pt
 
 ## Capítulo 8 - Lipídios ##
 
+![](ac_palmitico.png){width=5%}  [ác. palmitico ](.\ac_palmitico.png){target="\_blank}
+![](ac_oleico.png){width=5%}  [ác. oleico ](.\ac_oleico.png){target="\_blank}
+![](ac_linolenico.png){width=5%}  [ac_linolenico](.\ac_linolenico.png){target="\_blank}
+![](ac_linoleic.png){width=5%}  [ac_linoleic](.\ac_linoleic.png){target="\_blank}
+![](trimiristina.png){width=5%}  [triacilglicerol](.\trimiristina.png){target="\_blank}
+![](fosfatidilcolina.png){width=5%}  [fosfatidilcolina](.\fosfatidilcolina.png){target="\_blank}
+![](esfingosina.png){width=5%}  [esfingosina](.\esfingosina.png){target="\_blank}
+![](esfingomielina.png){width=5%}  [esfingomielina](.\esfingomielina.png){target="\_blank}
+![](ceramide.png){width=5%}  [ceramide](.\ceramide.png){target="\_blank}
 
-
+![](micela.png){width=5%}  [micela](.\micela.png){target="\_blank}
+![](biomembrana.png){width=5%}  [biomembrana](.\biomembrana.png){target="\_blank}
+![](vitA.png){width=5%}  [vitA](.\vitA.png){target="\_blank}
+![](vitE.png){width=5%}  [vitE](.\vitE.png){target="\_blank}
+![](vitD.png){width=5%}  [vitD](.\vitD.png){target="\_blank}
+![](vitK.png){width=5%}  [vitK](.\vitK.png){target="\_blank}
+![](prostaglandina.png){width=5%}  [prostaglandina](.\leucotrieno.png){target="\_blank}
+![](leucotrieno.png){width=5%}  [leucotrieno](.\colesterol.png){target="\_blank}
+![](isopreno.png){width=5%}  [isopreno](.\isopreno.png){target="\_blank}
+![](colesterol.png){width=5%}  [colesterol](.\colesterol.png){target="\_blank}
 
 
 
