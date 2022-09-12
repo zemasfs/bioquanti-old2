@@ -35,6 +35,8 @@ tags: ["R Markdown", "plot", "regression"]
 ## Dica rápida de uso ! ##
 |       Para utilizar o **Sisma** baixe o arquivo do *link* acima e descompacte-o em seu PC. O programa não requer instalação, apenas máquina virtual [*JAVA*](https://www.java.com/pt-BR/download/manual.jsp). Para executá-lo, vá para a pasta *"dist"* e clique no arquivo executável de Java (*"Sisma_Realese_1.jar"*).
 
+|       Este [**tutorial rápido**](https://www.youtube.com/watch?v=MPr5zWlJqbY){target="\_blank"} em *vídeo* ilustra o uso descrito abaixo.
+
 |        Clique com o botão direito do mouse e selecione *Object* para inserção de um composto. Repita o último procedimento num outro local da *folha em branco* do programa, mas desta vez reduzindo a intensidade de cor na barra de rolagem. Agora ligue os dois objetos clicando num vértice de um deles e arrastando o mouse para o vértice de outro. Finalmente, clique em *OK* e rode a simulação pelo ícone *Play*, para visualizar a conversão de matizes do primeiro para o segundo objeto.
 
 ## Ebook ##

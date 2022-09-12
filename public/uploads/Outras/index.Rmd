@@ -29,7 +29,9 @@ tags: []
 
 [BDC - Biblioteca Digital de Ciências da Unicamp](https://www.bdc.ib.unicamp.br/bdc/busca.php?tipoMaterial=a%3A1%3A%7Bi%3A0%3Bs%3A8%3A%22software%22%3B%7D&acao=exibirCategoria){target="\_blank"}. Portal de acesso a diversos softwares aplicados na área.
 
-[LTE - Laboratório de Tecnologia Educacional da Unicamp](https://www.lte.ib.unicamp.br/portal/). Portal de acesso com aplicativos diversos na área, incluindo de realidade aumentada (ARMET).
+[COM4-Simulação de consumo mitocondrial (Android/iPhone)-LTE/Unicamp](https://www.lte.ib.unicamp.br/portal/apps.php?idApp=7)
+
+[LTE - Laboratório de Tecnologia Educacional da Unicamp](https://www.lte.ib.unicamp.br/portal/). Portal de acesso com aplicativos diversos na área, incluindo o COM4 acima e ARMET (aplicativo de realidade aumentada-Android/iPhone).
 
 
 

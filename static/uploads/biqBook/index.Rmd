@@ -16,6 +16,8 @@ tags: ["R Markdown", "plot", "regression"]
 ## Uma dica ! ##
 |       Para reproduzir os comandos de qualquer tema tratado, basta clicar no canto superior direito do trecho de código contendo um ícone de cópia ![ copiar ](icon_copiar.png){width=2%}, colando-o em uma sessão instalada do *RStudio*, ou em sua versão *online* [RStudio Cloud](https://login.rstudio.cloud/).
 
+|       Este [**tutorial rápido**](https://youtu.be/LF99kO8DE6Y){target="\_blank"} em *vídeo* ilustra a dica acima.
+
 ![](r.logo.jpeg){width=20%}
 ![](rstudio.png){width=20%}
 

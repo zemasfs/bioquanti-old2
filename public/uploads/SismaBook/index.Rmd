@@ -1,5 +1,5 @@
 ---
-title: "SISMA - Visualizando a Dinâmica do Metabolismo "
+title: "SISMA - Dinâmica Visual de Transformações"
 author: 
 # hidedate: TRUE
 date:  
@@ -9,28 +9,46 @@ tags: ["R Markdown", "plot", "regression"]
 
 <font size="4">
 
+![ ](logo_sisma.png){width=20%}
+
+|       **Sisma** é um programa elaborado com a proposta de gerar uma imagem dinâmica de transformações ocorridas entre reagentes e produtos de reações isoladas ou em rede, pela simples inserção de compostos (*object*) interligados por setas (*path*). Nesse sentido, o programa foi desenhado para facilitar a inserção de reagentes e vias metabólicas, **simulando o que se desenharia com um lápis e uma folha de papel em branco**. 
+
+|       O programa foi escrito em *Java* e permite visualizar e avaliar dinamicamente a transformação de reagentes e produtos em uma reação isolada, um fluxo metabólico, ou mapas complexos. O nome **Sisma** refere-se ao acrônimo para **Sistema de Mapas Autocatalíticos**. O programa realiza uma simulação visual e quantitativa num mapa de reações, pela percepção de *variações na tonalidade dos objetos* envolvidos em cada tranformação, tanto a partir de uma equação *default*, como introduzida pelo usuário. 
+<br />
+       **Características do SISMA**
+
+|       Para o estudo das relações entre reagentes e produtos o programa permite a inserção de compostos (*Object*), caminhos (*Path*), figuras e anotações no mapa, armazenamento e leitura de mapas, simulação das variações nos teores relativos de cada composto por gráfico de pontos e linhas simultaneamente às que ocorrem no próprio mapa, pausa, interrupção, retrocesso e avanço da visualização a qualquer momento da simulação, geração automática e exportação de planilha contendo os valores numéricos de cada objeto transformado em cada instante, e impressão instantânea do mapa no ponto de uma transformação desejada. Dessa forma, o programa torna dinâmica a visualização de *forças e de fluxos* que são apresentados de forma estática em diagramas e mapas em *Bioquímica* e áreas afins. 
+|       O programa foi desenvolvido em parceria com o Prof. Dr. Luiz Eduardo da Silva, do Departamento de Ciência da Computação (DCC/UNIFAL-MG) e três discentes de Iniciação Científica.
+
+<br />
+       **Exemplo de telas**
+
 ![ ](estacion.png){width=40%}
-
-|       **Sisma** é um programa elaborado com a proposta de gerar uma imagem dinâmica de transformações ocorridas entre reagentes e produtos em uma rede, e pela simples inserção de compostos (*object*) interligados por setas (*path*). Nesse sentido, o programa foi desenhado para facilitar a inserção de reagentes e vias metabólicas, simulando o que se desenharia com um lápis e uma folha de papel em branco. 
-
-|       O programa foi escrito em *Java* e permite visualizar e avaliar dinamicamente a transformação de reagentes e produtos em uma reação isolada, um fluxo metabólico, ou mapas complexos. O nome *Sisma* refere-se ao acrônimo para *Sistema de Mapas Autocatalíticos*, e permite uma simulação visual e quantitativa num mapa bidimensional, pela percepção de variações de matizes nos objetos envolvidos em cada tranformação a partir de equação introduzida pelo usuário.
-
-|       Para o estudo dessas relações, o programa permite a inserção de objetos, vias, figuras e anotações no mapa, armazenamento e leitura de mapas, simulações por gráfico de pontos e linhas para cada objeto simultaneamente às que ocorrem no próprio mapa, pausa, interrupção, retrocesso e avanço da visualização a qualquer momento da simulação, geração automática e exportação de planilha contendo os valores numéricos de cada objeto transformado em cada instante, e impressão instantânea do mapa no ponto de uma transformação desejada. Dessa forma, o programa torna dinâmica a visualização de forças e de fluxos que são apresentados de forma estática em representações bidimensionais de mesma natureza em Bioquímica e áreas afins. 
-
 ![ ](RP1.png){width=40%}
 ![ ](rede.png){width=40%}
 ![ ](achase.png){width=30%}
 
 ## Download ##
 
-|       O arquivo comprimido contendo o programa pode ser obtido neste [link](.\Sisma.zip)
+|       O arquivo comprimido contendo o programa é obtido neste [**LINK**](.\Sisma.zip)
 
 ## Dica rápida de uso ! ##
-|       Para utilizar o **Sisma** baixe o arquivo do link acima e descompacte-o no seu PC. Não requer instalação, apenas [*JAVA*](https://www.java.com/pt-BR/download/manual.jsp). Para executá-lo, vá para a pasta "dist" e clique no arquivo de Java (*"Sisma_Realese_1.jar"*).
+|       Para utilizar o **Sisma** baixe o arquivo do *link* acima e descompacte-o em seu PC. O programa não requer instalação, apenas máquina virtual [*JAVA*](https://www.java.com/pt-BR/download/manual.jsp). Para executá-lo, vá para a pasta *"dist"* e clique no arquivo executável de Java (*"Sisma_Realese_1.jar"*).
 
-## Tutorial ##
+|        Clique com o botão direito do mouse e selecione *Object* para inserção de um composto. Repita o último procedimento num outro local da *folha em branco* do programa, mas desta vez reduzindo a intensidade de cor na barra de rolagem. Agora ligue os dois objetos clicando num vértice de um deles e arrastando o mouse para o vértice de outro. Finalmente, clique em *OK* e rode a simulação pelo ícone *Play*, para visualizar a conversão de matizes do primeiro para o segundo objeto.
 
-|       Para inserir *objetos* e *caminhos* no **Sisma**, e elaborar reações, cadeias ou redes metabólicas dinâmicas, pode-se seguir esse [tutorial](.\sisma_all.pdf). 
+### Vídeo ilustrativo ###
+
+<!-- <video width="320" height="240" controls> -->
+<!--   <source src=".\videos\sisma_tut.mkv" type="video/mkv"> -->
+<!-- <video> -->
+
+![](https://www.youtube.com/watch?v=MPr5zWlJqbY){width="280" height="157"}
+
+## Ebook ##
+
+|       Para inserir *objetos* e *caminhos* no **Sisma**, bem como elaborar, simular e avaliar reações enzimáticas, cadeias ou redes metabólicas dinâmicas, baixe o [ebook](.\sismaBook.pdf) (ISBN: 978-65-00-52124-5). 
+
 
 ## Exemplos de Mapas do Sisma ##
 

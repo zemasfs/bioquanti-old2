@@ -9,7 +9,7 @@ fontesize: 12pt
 ---
 <font size="4">
 
-|       Segue abaixo a lista de figuras renderizáveis pelo **Jmol** ordenadas por capítulo do respectivo *ebook*. As figuras estão disponíveis também num único [arquivo comprimido](.\figBook.zip).
+|       Segue a lista de figuras renderizáveis pelo **Jmol** ordenadas por capítulo do respectivo *ebook*. As figuras estão disponíveis também num único [arquivo comprimido](.\figBook.zip).
 
 </font>
 
