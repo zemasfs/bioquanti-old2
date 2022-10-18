@@ -25,6 +25,8 @@ uma pasta de diretório contendo seus arquivos, como a partir de um disco rígid
 
 |       O *Jmol* é acessado *online* por diversos sítios de *Biologia Estrutura*l, tais como [Jmol User Design Environment (JUDE)](https://cbm.msoe.edu/modelingResources/jmolUserDesignEnvironment/#forward){target="\_blank"} do *Center For Biomolecular Modelling (CBM-SOE)* da *Milwaukee School of Engineering*.
 
+|       Este [**tutorial rápido**](https://youtu.be/NnO4oytvvjk){target="\_blank"} em *vídeo* ilustra essa dica.
+
 |       Assim, basta entrar no [link](https://cbm.msoe.edu/modelingResources/jmolUserDesignEnvironment/#forward){target="\_blank"}, clicar com o botão direito do mouse no espaço vazio (*canvas*), buscar *File->Load->Open from PDB*, e digitar um código do banco de dados online [*Protein Data Bank*](https://www.rcsb.org/) como, por exemplo *5cyt* (citocromo C).
 |       Por outro lado, se desejar o estudo de alguma figura do [ebook](.\BioqEstrutJmol.pdf), baixe o arquivo desejado do  [link](.\figBook\figuras.html) de imagens, e arraste-o para a janela do [JUDE](https://cbm.msoe.edu/modelingResources/jmolUserDesignEnvironment/#forward), para renderizar a estrutura em 3D automaticamente.
 
