@@ -6,6 +6,7 @@ theme: "starter-hugo-academic"
 
 title: Bioquímica Quantitativa # Nome do sítio que vai à esquerda da página principal
 baseURL: 'https://bioquanti.netlify.app/' # Website URL
+googleAnalytics = "G-S1L73VGCG5"
 
 ############################
 ## LANGUAGE
