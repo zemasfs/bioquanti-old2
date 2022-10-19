@@ -9,14 +9,14 @@ fontesize: 12pt
 ---
 
 <!-- <!-- Google tag (gtag.js) ## se não funcionar o default, tem que colocar essa tag em cada página do sítio--> 
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1L73VGCG5"></script> -->
-<!-- <script> -->
-<!--   window.dataLayer = window.dataLayer || []; -->
-<!--   function gtag(){dataLayer.push(arguments);} -->
-<!--   gtag('js', new Date()); -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1L73VGCG5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<!--   gtag('config', 'G-S1L73VGCG5'); -->
-<!-- </script> -->
+  gtag('config', 'G-S1L73VGCG5');
+</script>
 
 <!-- <font size="4"> -->
 
