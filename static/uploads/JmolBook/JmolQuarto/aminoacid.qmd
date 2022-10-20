@@ -46,43 +46,19 @@ E o **esqueleto carbônico** ?
 
 |       Como já mencionado, não é necessário possuir o *Jmol* instalado ou o diretório do *Jmol* e seu executável em *Java* no computador. O programa pode ser acessado por *applets* encontrados em diversos sites da internete, como por exemplo:
 
-1.  [St. Olaf College - Jmol & JSmol (applet direto para JSmol)](https://chemapps.stolaf.edu/jmol/jsmol/simple.htm)
+1.  [St. Olaf College - Jmol & JSmol (applet direto para JSmol)](https://chemapps.stolaf.edu/jmol/jsmol/simple.htm){target="_blank"}
 
-2.  [First Glance in Jmol](https://proteopedia.org/wiki/fgij/)
+2.  [First Glance in Jmol](https://proteopedia.org/wiki/fgij/){target="_blank"}
 
 | Para "rodar" o script anterior, por exemplo,
 
-1.  Entre no site [St. Olaf College - Jmol & JSmol)](https://chemapps.stolaf.edu/jmol/jsmol/simple.htm);
+1.  Entre no site [St. Olaf College - Jmol & JSmol)](https://chemapps.stolaf.edu/jmol/jsmol/simple.htm){target="_blank"};
 2.  Inicie o Console (canto inferior esquerdo da tela);
 3.  Copie o *script* acima e cole-o no *Console*.
 
 |       Alternativamente, ao invés de copiar/colar algum trecho de código, o *Jmol* torna possível o carregamento do *script*, desde que previamente salvo com atributo *spt* (para *script*). Na verdade, o *script* pode ser salvo em qualquer editor de texto simples, mantendo esse atributo *spt*.
 
 |       A imagem abaixo ilustra o resultado do *script* para o glutamato.
-
-<!-- ```{r, echo=FALSE, out.width="50%", fig.cap="Imagem gerada no Jmol para cargas parciais do glutamato."} -->
-
-<!-- knitr::include_graphics("figuras/glu.jpg") -->
-
-<!-- ``` -->
-
-<!-- ```{=tex} -->
-
-<!-- \begin{figure} [h] -->
-
-<!-- \centering -->
-
-<!-- \linespread{1.0} -->
-
-<!-- \includegraphics[scale=0.4] {./figuras/glu.jpg} -->
-
-<!-- \caption{Estrutura da Alanina (Ala), apresentando a distribuição de suas cargas parciais.} -->
-
-<!-- \label{glu} -->
-
-<!-- \end{figure} -->
-
-<!-- ``` -->
 
 ::: {#fig-glu}
 ![](figuras/glu.jpg)
@@ -101,7 +77,7 @@ Para exportar imagens criadas no *Jmol*, basta seguir o *Menu*, ou o comando aba
 
 <!-- Script para renderização de nova aba com água e Console -->
 
-[![](jsmol.png){width="20%"}](https://chemapps.stolaf.edu/jmol/jmol.php?model=water&script=Console)
+[![](jsmol.png){width="20%"}](https://chemapps.stolaf.edu/jmol/jmol.php?model=water&script=Console){target="_blank"}
 
 |       Alternativamente, modelos moleculares serão também disponibilizados como *applet* *JSmol* na mesma página de conteúdos quando conveniente, como por exemplo, a molécula de **glutamato**:
 
@@ -127,7 +103,7 @@ src="https://chemapps.stolaf.edu/jmol/jmol.php?model=glutamate&inline&width=300"
 
     load $nome do aminoácido ou sua abreviação de 3 letras
 
-|       Existem diversos *sites* de internete para estudo de biomoléculas com auxílio do *JSmol*, incluindo aminoácidos. Como exemplo, a [*Seção de Moléculas Interativas*](https://www.ufrgs.br/bioquimica/#Moleculas) desenvolvida pelo Depto. de Patologia Clínica Veterinária da UFRGS.
+|       Existem diversos *sites* de internete para estudo de biomoléculas com auxílio do *JSmol*, incluindo aminoácidos. Como exemplo, a [*Seção de Moléculas Interativas*](https://www.ufrgs.br/bioquimica/#Moleculas){target="_blank"} desenvolvida pelo Depto. de Patologia Clínica Veterinária da UFRGS.
 
 ## Derivados Metabólicos
 
