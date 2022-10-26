@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jmol22 - 1&nbsp; Comandos Básicos</title>
+<title>Jmol22 - 1&nbsp; Comandos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Comandos Básicos</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Comandos</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./comandos.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Comandos Básicos</span></a>
+  <a href="./comandos.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Comandos</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -111,6 +111,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./peptidio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Peptídios</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./proteina.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Proteínas</span></a>
   </div>
 </li>
     </ul>
@@ -185,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#delay" id="toc-delay" class="nav-link" data-scroll-target="#delay"><span class="toc-section-number">1.22.4</span>  Delay</a></li>
   </ul></li>
   <li><a href="#programação-no-jmol" id="toc-programação-no-jmol" class="nav-link" data-scroll-target="#programação-no-jmol"><span class="toc-section-number">1.23</span>  Programação no Jmol</a></li>
-  <li><a href="#configurações-básicas-set" id="toc-configurações-básicas-set" class="nav-link" data-scroll-target="#configurações-básicas-set"><span class="toc-section-number">1.24</span>  Configurações básicas (<em>set</em>)</a></li>
+  <li><a href="#configurações-set" id="toc-configurações-set" class="nav-link" data-scroll-target="#configurações-set"><span class="toc-section-number">1.24</span>  Configurações (<em>set</em>)</a></li>
   </ul>
 </nav>
     </div>
@@ -194,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Comandos Básicos</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Comandos</span></h1>
 </div>
 
 
@@ -208,6 +213,15 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<!-- Google tag (gtag.js)-->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S1L73VGCG5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S1L73VGCG5');
+</script>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O <em>Jmol</em> possui uma infinidade de comandos para visualização e estudo de modelos moleculares. Grande parte desses comandos é acessada pelo <em>Menu</em> principal do <em>Jmol</em>, ou por clique do botão direito do mouse no ecrã principal do programa ou do <em>applet JSmol</em> na internete.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entretanto, a <em>scriptagem</em> permite pelo <em>Console</em>, tanto do programa instalado como do <em>applet</em> a execução de um conjunto bem maior de ações, além de permitir elencar ações consecutivas gerando visualizações específicas, cálculos e animações, e mesmo <em>programação.</em> Nesse último caso, pela linguagem <em>Jmol scripting</em>. Esses comandos e a linguagem programação estão explicitados no site de seus desenvolvedores, <a href="https://chemapps.stolaf.edu/jmol/docs/?ver=14.32#plot" target="_blank">Jmol - Documentação &amp; scriptagem</a>, com substanciais exemplos e <em>links</em> ilustrativos e interativos. O conteúdo deste capítulo visa sumarizar os principais comandos para a visualização, estudo, importação e exportação, cálculos e animações dos modelos pelo <em>Console</em> ou por <em>script</em>.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Como uma sequência de comandos visando uma observação mais complexa ou animação, <strong>pode-se elaborar o script</strong> em qualquer editor de texto simples, <strong>salvando-o com atributo “.spt”</strong>. O <em>script</em> pode ser carregado como um arquivo ou colado no campo do <em>Console</em>.<br>
@@ -241,7 +255,7 @@ Minimização por campos de força do modelo: minimize</code></pre>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experimente alguns dos comandos acima com o <em>applet</em> para <em>JSmol</em> que segue:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://chemapps.stolaf.edu/jmol/jsmol/simple.htm" target="_blank"><img src="jsmol.png" class="img-fluid figure-img" style="width:20.0%"></a></p>
+<p><a href="https://chemapps.stolaf.edu/jmol/jsmol/simple.htm"><img src="jsmol.png" class="img-fluid figure-img" style="width:20.0%"></a></p>
 </figure>
 </div>
 </section>
@@ -250,7 +264,7 @@ Minimização por campos de força do modelo: minimize</code></pre>
 <section id="um-modelo" class="level3" data-number="1.3.1">
 <h3 data-number="1.3.1" class="anchored" data-anchor-id="um-modelo"><span class="header-section-number">1.3.1</span> Um modelo</h3>
 <pre><code>Da internet:
-  moléculas em geral: load$ cholesterol
+  moléculas em geral: load $cholesterol
   moléculas do PDB (Protein Data Bank): load=9pap
 
 Do computador (necessário que os arquivos estejam no diretório raiz ou pré-selecionado por "cd"-vide acima):
@@ -393,7 +407,7 @@ ssbonds 0.5 # renderiza com 0,2 Angstrom de diâmetro</code></pre>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Só para exercitar-se, experimente alguns dos comandos acima com o <em>applet</em> para <em>JSmol</em>, tal como segue segue:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://chemapps.stolaf.edu/jmol/jsmol/simple.htm" target="_blank"><img src="jsmol.png" class="img-fluid figure-img" style="width:20.0%"></a></p>
+<p><a href="https://chemapps.stolaf.edu/jmol/jsmol/simple.htm"><img src="jsmol.png" class="img-fluid figure-img" style="width:20.0%"></a></p>
 </figure>
 </div>
 </section>
@@ -459,8 +473,7 @@ label Prolina-31</code></pre>
 <section id="selecionando-partes-do-modelo" class="level2" data-number="1.15">
 <h2 data-number="1.15" class="anchored" data-anchor-id="selecionando-partes-do-modelo"><span class="header-section-number">1.15</span> Selecionando partes do modelo</h2>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para selecionar-se um grupo geral de átomos, basta combinar pelo mouse <em>Shift+clique esq+drag</em> para o grupo selecionado (é necessário clicar no ícone que o representa no menu antes). Para uma seleção mais específica, pode-se utilizar algumas das <em>expressões de átomos</em> específicas ou pré-definidas, como abaixo:</p>
-<pre><code>
-Natureza da molécula:
+<pre><code>Natureza da molécula:
   all, none, protein, nucleic, dna, rna, carbohydrate, hetero, ligand, solvent, water ou hoh, ions, hem, amino
 
 Elemento químico
@@ -531,8 +544,7 @@ Comando delete
 <h4 data-number="1.15.1.1" class="anchored" data-anchor-id="comando-within"><span class="header-section-number">1.15.1.1</span> Comando <em>within</em></h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este comando permite uma seleção recursiva, ou seja, uma seleção dentro de uma seleção.</p>
 <pre><code>select within (5,(bca,amp)) # seleciona dois ligantes que se avizinhem a 5 Angstrons de distância do grupo de átomos selecionado
-select within(3.0, _Fe) # todos os átomos próximos de 3 Angstrons do átomo de ferro
-</code></pre>
+select within(3.0, _Fe) # todos os átomos próximos de 3 Angstrons do átomo de ferro</code></pre>
 </section>
 <section id="comando-define" class="level4" data-number="1.15.1.2">
 <h4 data-number="1.15.1.2" class="anchored" data-anchor-id="comando-define"><span class="header-section-number">1.15.1.2</span> Comando <em>define</em></h4>
@@ -621,7 +633,7 @@ Obs: Para visualizar as superfícies incluindo o solvente, pode-se utilizar o co
 <section id="criando-e-lendo-scripts" class="level2" data-number="1.20">
 <h2 data-number="1.20" class="anchored" data-anchor-id="criando-e-lendo-scripts"><span class="header-section-number">1.20</span> Criando e lendo scripts</h2>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A scriptagem permite a observação e análise de uma parte específica do modelo em estudo, pela composição de trechos de código como linhas de comando. Dessa forma o <em>script</em> assemelha-se a um <em>algoritmo</em> com sucessão de comandos. Um <em>script</em> pode ser carregado pela chamada de arquivos do programa (<em>File, Open</em>), ou mesmo por arraste do arquivo à área do ecrã do programa.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A elaboração do <em>script</em> pode se dar num arquivo de texto simples, salvando-o como **.spt<em>. Por outro lado, o </em>Jmol* possui um ambiente próprio de construção e testagem, <em>Script Editor</em>, acessável pelo <em>Menu</em> principal. Nesse ambiente é possível criar abrir, criar, checar, e rodar um <em>script</em>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A elaboração do <em>script</em> pode se dar num arquivo de texto simples, salvando-o como **.spt<em>. Por outro lado, o</em> Jmol* possui um ambiente próprio de construção e testagem, <em>Script Editor</em>, acessável pelo <em>Menu</em> principal. Nesse ambiente é possível criar abrir, criar, checar, e rodar um <em>script</em>.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Também é possível pelo <em>Jmol</em> definir um <em>script</em> inicial a ser rodado junto à abertura do programa. Para isto:</p>
 <pre><code>set defaultLoadScript "comandos"</code></pre>
 </section>
@@ -629,7 +641,7 @@ Obs: Para visualizar as superfícies incluindo o solvente, pode-se utilizar o co
 <h2 data-number="1.21" class="anchored" data-anchor-id="mutação"><span class="header-section-number">1.21</span> Mutação</h2>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Também é possível observar consequências da mutação de resíduos específicos em um modelo, tais como interações fracas (eletrostáticas ou ligações de hidrogênio, por ex).</p>
 <pre><code>  mutate 33Lys # altera especificamente a posição 33 da sequência primária para Lisina
-  mutate Ala34 ~G # alteral Ala para Gly
+  mutate Ala34 ~W # alteral Ala para Trp
   mutate(1:3) ~GAL # altera as três primeiras posições na proteína para Gly, Ala e Leu</code></pre>
 </section>
 <section id="animações-nos-modelos" class="level2" data-number="1.22">
@@ -657,8 +669,8 @@ Obs: Para visualizar as superfícies incluindo o solvente, pode-se utilizar o co
 <pre><code>IF    FOR   WHILE   STEP    BREAK   WAIT    PAUSE   
 BREAK   CASE    CONTINUE    QUIT</code></pre>
 </section>
-<section id="configurações-básicas-set" class="level2" data-number="1.24">
-<h2 data-number="1.24" class="anchored" data-anchor-id="configurações-básicas-set"><span class="header-section-number">1.24</span> Configurações básicas (<em>set</em>)</h2>
+<section id="configurações-set" class="level2" data-number="1.24">
+<h2 data-number="1.24" class="anchored" data-anchor-id="configurações-set"><span class="header-section-number">1.24</span> Configurações (<em>set</em>)</h2>
 
 
 </section>
