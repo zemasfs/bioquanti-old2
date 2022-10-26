@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Jmol22 - 4&nbsp; Proteínas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./peptidio.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Proteínas</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Jmol22</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Início</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./comandos.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Comandos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aminoacid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Aminoácidos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./peptidio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Peptídios</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./proteina.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Proteínas</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#o-que-tem-na-página-do-pdb-rsbc---protein-data-bank" id="toc-o-que-tem-na-página-do-pdb-rsbc---protein-data-bank" class="nav-link active" data-scroll-target="#o-que-tem-na-página-do-pdb-rsbc---protein-data-bank"><span class="toc-section-number">4.1</span>  O que tem na página do PDB (RSBC - Protein Data Bank)</a></li>
+  <li><a href="#o-que-tem-no-arquivo-pdb" id="toc-o-que-tem-no-arquivo-pdb" class="nav-link" data-scroll-target="#o-que-tem-no-arquivo-pdb"><span class="toc-section-number">4.2</span>  O que tem no arquivo PDB</a></li>
+  <li><a href="#anatomia-geral-de-uma-proteína." id="toc-anatomia-geral-de-uma-proteína." class="nav-link" data-scroll-target="#anatomia-geral-de-uma-proteína."><span class="toc-section-number">4.3</span>  Anatomia Geral de Uma Proteína.</a>
+  <ul class="collapse">
+  <li><a href="#hierarquia-estrutural-de-proteínas" id="toc-hierarquia-estrutural-de-proteínas" class="nav-link" data-scroll-target="#hierarquia-estrutural-de-proteínas"><span class="toc-section-number">4.3.1</span>  Hierarquia estrutural de proteínas</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Proteínas</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<!-- Google tag (gtag.js)-->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S1L73VGCG5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S1L73VGCG5');
+</script>
+<section id="o-que-tem-na-página-do-pdb-rsbc---protein-data-bank" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="o-que-tem-na-página-do-pdb-rsbc---protein-data-bank"><span class="header-section-number">4.1</span> O que tem na página do PDB (RSBC - Protein Data Bank)</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O banco de dados PDB consiste no maior <a href="https://www.rcsb.org/">repositório digital de proteínas</a>, contando hoje com quase 200 mil estruturas macromoleculares depositadas a partir de dados de difração de raios-X e ressonância magnética nuclear, e empregados para pesquisa e educação. Acesse a página e veja seu conteúdo.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acesse a página do <a href="https://www.rcsb.org/" target="_blank">PDB</a> e digite no campo de busca <em>1AL1</em> (tanto faz se maiúscula ou minúscula). Também é possível renderizar a estrutura no <em>JSmol</em> diretamente, digitando <em>load=1la1</em> na janela que se abre abaixo.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://chemapps.stolaf.edu/jmol/jsmol/simple.htm" target="_blank"><img src="jsmol.png" class="img-fluid figure-img" style="width:20.0%"></a></p>
+</figure>
+</div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se desejar um <em>link direto</em> experimente <a href="https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=1al1&amp;script=Console" target="_blank">1AL1</a>.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verifique que o modelo carregado <em>na página do PDB</em> refere-se uma estrutura denominada <em>alfa-hélice</em>. Existem informações variadas e <em>links</em> para acesso à informação da estrutura, tais como as abas <em>Structure summary</em>, <em>3D View</em>, <em>Sequence</em>, e as caixas <em>Macromolecules</em>, <em>Small molecules</em> (ligantes, resíduos modificados), ou <em>Experimental data</em> (como foram obtidos os dados). Em <em>Macromolecules</em>, por ex, verá que a estrutura 1AL1 revela um peptídio de sequência ELLKKLLEELKG, considerando as abreviações de uma letra para aminoácidos. No canto superior direito, é possível baixar a estrutura (<em>Download files</em>) em diversos formatos, incluso o formato PDB, que é lido pelo <em>Jmol</em> e outros visualizadores moleculares. Na aba <em>Experiment</em> é possível se identificar como foram obtidos os dados (metodologia).</p>
+</section>
+<section id="o-que-tem-no-arquivo-pdb" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="o-que-tem-no-arquivo-pdb"><span class="header-section-number">4.2</span> O que tem no arquivo PDB</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Utilizando-se o <em>sítio do PDB</em>, o <em>Jmol</em> ou o <em>applet JSmol</em>, baixe no computador ou dispositivo móvel o arquivo <em>1acj.pdb</em>. Abra o arquivo num <em>editor de texto</em> simples e observe as informações de cabeçalho (“header”), o composto (“compnd”), a fonte (“source”), o dado experimental de origem (“expdta”), autores, data de revisão, periódico em que foi publicada a estrutura, resolução, e demais dados.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Ilustrando-se dinamicamente o modelo, carregue o arquivo <a href="https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=1acj&amp;script=Console" target="_blank">1acj.pdb</a> no <em>JSmol</em>.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observe agora no <em>arquivo de texto</em> a informação que consta em uma grande tabela cuja primeira coluna possui o termo <em>ATOM</em>. Trata-se da informação estrutural de todos os átomos do composto (veja que a <em>1acj, acetilcolinesterase</em>, possui 4193 átomos no cristal !)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logo abaixo encontra-se outra tabela, esta começando com a coluna <em>HETAM</em>, e referente à informação estrutural de um composto formado por heteroátomos, ou seja, átomos que não participam da estrutura da proteína, como por exemplo, um ligante.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nessas duas tabelas a última coluna refere-se ao tipo de átomo, e a penúltima ao fator de temperatura (<em>B-factor</em>). Esse fator exprime valores elevados (&gt;50) quando o átomo encontra-se em alta vibração (superfície da proteína, por exemplo, pelo contato com o solvente) ou baixos, quando a vibração é reduzida (interior da proteína, por conseguinte). A coluna logo a seguir refere-se ao grau de ocupação (<em>occupancy</em>) do átomo no cristal; 1.00 indica a mesma conformação para os átomos, enquanto valores distintos indicam múltiplas conformações.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As três colunas anteriores referem-se às <em>coordenadas X,Y e Z</em> de cada átomo, as quais são utilizadas para a construção tridimensional da estrutura e cálculos geométricos (distância interatômica, por ex).</p>
+</section>
+<section id="anatomia-geral-de-uma-proteína." class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="anatomia-geral-de-uma-proteína."><span class="header-section-number">4.3</span> Anatomia Geral de Uma Proteína.</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abra o <em>Console</em> e baixe o arquivo que segue do banco de estruturas, ou ainda pela página do próprio PDB:</p>
+<p><a href="https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=1lev&amp;script=Console" target="_blank">1lev.pdb</a></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De que estrutura se trata ? <em>Domínio da frutose-1,6-bifosfatase</em> de rim suíno complexada a um ligante (veja a informação do <em>Console</em> pelo <em>Jmol</em>, ou pelo <em>sítio do PDB</em>, ou ainda pelo comando <em>show file</em> já visto. Apesar de refletir uma molécula apenas, o modelo não permite distinção de peculiaridades da estrutura. Nesse sentido, experimente as ações abaixo para uma melhor visualização e estudo, colando cada linha no <em>Console</em> e executando uma por vez.</p>
+<pre><code>cartoon only # renderiza como "cartoon"
+color structure # modifica a coloração do modelo em função de sua estrutura 2a.
+spin 10 # rotaciona o modelo a determinada velocidade
+spin off # para interromper a rotação</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em qualquer estrutura proteica em meio aquoso, os resíduos de aminoácidos hidrofóbicos tendem a situar-se no <em>cerne</em> (interior) da proteína, ao passo que os polares em sua <em>superfície</em>. Para testar isso, visualize a proteína seguindo o trecho de código abaixo.</p>
+<pre><code>spacefill only; select hydrophobic; color green; select positive; color blue; select negative; color red; select aromatic; color magenta # distribui cores para classes de aminoácidos
+
+rotate # observe a distribuição de resíduos carregados e aromáticos
+
+slab on; slab 50 # realiza um corte sagital nos orbitais atômicos (fatiamento, 50% no caso)
+
+slab off # retirada do recurso de fatiamento</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para visualizar a estrutura da proteína com <em>renderizações distintas</em>, experimente:</p>
+<pre><code>backbone only; backbone 50
+trace only; trace 100</code></pre>
+<section id="hierarquia-estrutural-de-proteínas" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="hierarquia-estrutural-de-proteínas"><span class="header-section-number">4.3.1</span> Hierarquia estrutural de proteínas</h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No intuito de se facilitar a observação e estudo de partes de uma proteína, sua estrutura é didaticamente subdividada em <em>sequências</em> (ou <em>estrutura</em>), de primária à quinquenária.</p>
+<section id="estrutura-primária" class="level4" data-number="4.3.1.1">
+<h4 data-number="4.3.1.1" class="anchored" data-anchor-id="estrutura-primária"><span class="header-section-number">4.3.1.1</span> Estrutura primária</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <em>estrutura ou sequência primária</em> de uma proteína é definida pela sequência de seus resíduos de aminoácidos, numerados da extremidade amino terminal (-NH<span class="math inline">\(_{2}\)</span>) à carboxi terminal (-COOH).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para visualizar a estrutura primária da enzima em estudo, digite: <em>show sequence</em>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O conhecimento da sequência primária de uma proteína permite grande diversidade de cálculos preditivos estruturais, incluindo sua <em>massa molecular</em>, <em>ponto isoelétrico (pI)</em>, características de <em>polaridade</em> e <em>anfipaticidade</em>, bem como sua predição estrutural no espaço tridimensional.</p>
+</section>
+<section id="estrutura-secundária" class="level4" data-number="4.3.1.2">
+<h4 data-number="4.3.1.2" class="anchored" data-anchor-id="estrutura-secundária"><span class="header-section-number">4.3.1.2</span> Estrutura Secundária</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A estrutura secundária de proteínas é formada basicamente por <em>hélices</em>, <em>dobramentos (folhas)</em> e <em>alças</em>. A identificação de cada é facilitada pelo visualizador, como mostrado acima (comando <em>color structure</em>). Quando a alça é formada por menos de seis resíduos e provoca uma mudança brusca na direção da cadeia polipeptídica, constitui uma <em>volta</em>.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para um estudo interativo da <em>estrutura secundária</em>, carregue o arquivo <a href="https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=8cat&amp;script=Console" target="_blank">8cat.pdb</a>. Como a visualização inicial padrão no <em>Jmol</em> é de <em>ball&amp;stick (bolas&amp;varetas)</em>, experimente:</p>
+<pre><code>restrict protein;cartoon only; color structure</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trata-se da <em>catalase</em> bovina, enzima com atividade hidroperoxidase, comumente presente em hemácias. A representação <em>default</em> (por definição) da coloração <em>structure</em> confere cor amarela às folhas, vermelha às helices e branca às voltas.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para confirmar essas estruturas, digite:</p>
+<pre><code>show info  # informações de cadeias e estrutura 2a. no modelo</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Também existem outros tipos de estruturas secundárias além das mencionadas. Para visualizá-las além da coloração padrão, é necessário que o programa calcule as estruturas secundárias por um algoritmo interno <strong>DSSP - Define Secondary Structure</strong> . Para tanto:</p>
+<pre><code>calculate structure</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observe que o modelo da proteína desapareceu. Para voltar a visualizá-la, digite ou volte com as setas do teclado para o comando de representação por cartoon e coloração por estrutura (<em>cartoon only; color structure</em>).</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Veja agora que, após o cálculo pelo algoritmo de estruturas secundárias, a imagem sofreu alterações, surgindo novas cores, púrpura para algumas hélices e azul para algumas voltas. Essas estruturas possuem uma <em>identificação codificada</em> como abaixo, e visualizada pelo Console em cada trecho:</p>
+<pre><code>H - alfa-hélice
+E - fita estendida de um beta-folha
+T - volta com ligação de H
+B - resíduo em ponte beta isolado (somente duas ligações H)
+G - hélice 3/10
+I - hélice pi
+S - torsão (mudança mínima de 70 graus na curvatura da estrutura)</code></pre>
+<section id="dobramentos-ou-beta-folhas" class="level5" data-number="4.3.1.2.1">
+<h5 data-number="4.3.1.2.1" class="anchored" data-anchor-id="dobramentos-ou-beta-folhas"><span class="header-section-number">4.3.1.2.1</span> Dobramentos ou beta-folhas</h5>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dobramentos ou folhas podem ser <em>paralelos</em> ou <em>antiparalelos</em>, os primeiros mais comuns pela natureza própria da estrutura primária. Para visualizar um dobramento paralelo, carregue <a href="https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=2pec&amp;script=Console" target="_blank">2pec.pdb</a>)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forneça uma visualização prática por <em>cartoon</em> ou <em>rockets</em>, e uma coloração por grupo:</p>
+<pre><code>cartoon only # ou rockets only
+color group # ou Group, ou groups, ou Groups</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse <em>esquema de coloração </em> tinge a proteína da região amino terminal (NH<span class="math inline">\(_{2}\)</span>-t) em azul para a região carboxil terminal (COOH-t) em vermelho.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para melhor compreensão da estrutura secundária, carregue o arquivo <a href="https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=2lyz&amp;script=Console" target="_blank">2lyz.pdb</a> referente à <em>lisozima</em>, uma hidrolase de glicanos. E em seguida:</p>
+<pre><code>show info # observação das estruturas 2as.
+cartoon only; color structure
+calculate structure # algoritmo para otimização de estruturas 2as.
+cartoon only; color structure # basta clicar na seta pra cima no teclado para recuperar a linha de comando
+
+Agora...
+restrict 42-60 # restrinje a visão de folhas beta na proteína a uma determinada região</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observe que a folha selecionada possui uma direção <em>antiparalela</em>; se não estiver claro, altere a renderização para:</p>
+<pre><code>rockets only
+spin 20 # spin off para desligar
+wireframe only; wireframe 50; color cpk
+calculate hbonds;hbonds 0.2 # visualização das ligações de H na estrutura
+zoom 150</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O mesmo pode ser realizado para o entendimento das <em>ligações de H</em> em uma hélice alfa. Para tanto, retorne à estrutura original e realize as modificações que seguem:</p>
+<p>Veja que surgiram os códigos estruturais no <em>Console</em> e colorações distintas na imagem. –&gt;</p>
+<pre><code>select all; cartoon only; color structure; zoom 0
+calculate structure
+cartoon only; color structure # visualiza-se as estruturas 2as calculadas</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agora selecione uma <span class="math inline">\(\alpha\)</span>-hélice. Para isto, veja que no <em>Console</em>, as <span class="math inline">\(\alpha\)</span>-hélices estão representadas por <em>H</em>, como já explicado. Escolha uma região contendo H e restrinja sua observação. Você pode selecionar uma com a região descrita no <em>Console</em> (por ex: H : A:109_A:114), ou clicar no ínicio e final de uma hélice que deseja na imagem, conferindo a posição do resíduo de aminoácido no <em>Console.</em> Exemplificando:</p>
+<pre><code>restrict 26-36 # restringe a visualização a uma alfa-hélice selecionada
+wireframe 50; color cpk 
+calculate hbonds</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rotacione a molécula e veja como se distribui a cadeia lateral dos resíduos na estrutura. Uma <span class="math inline">\(\alpha\)</span>-hélice possui 3,6 resíduos por volta, e com passo de 0,54 nm (distância vertical entre duas voltas). Por fim, observe como também se distribuem as ligações de H. Também existem outros tipos de hélices, como a hélice 3/10, a ser explorada nas próximas seções.</p>
+</section>
+</section>
+<section id="estruturas-supersecundárias" class="level4" data-number="4.3.1.3">
+<h4 data-number="4.3.1.3" class="anchored" data-anchor-id="estruturas-supersecundárias"><span class="header-section-number">4.3.1.3</span> Estruturas supersecundárias</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Possuem esse nome por situar-se numa organização intermediária entre as secundárias e as terciárias. Trata-se de uma combinação de poucas estruturas secundárias com arranjo geométrico específico (<em>motivos</em>). Como exemplo inicial, carregue o arquivo <a href="https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=1yme&amp;script=Console" target="_blank">1yme.pdb</a>, referente à enzima carboxipeptidase.</p>
+<pre><code>cartoon only;color structure
+restrict 61-108 # restrição visual para uma estrutura supersecundária
+backbone only; backbone 100; color grey
+spin 15</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Essa estrutura é formada por uma unidade <em>beta-alfa-beta</em>. Com um pouco de criatividade a imagem parece assemelhar-se a um <em>grampo</em>. Não à toa, sua definição estrutural é <em>grampo de cabelo</em>” ou <em>hairpin</em>, no original. Outro grampo apresentado pela carboxipeptidase, numa visualização distinta, pode ser obtido por: <em>restrict 201-242; rockets only; color structure</em>.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agora restrinja a imagem à outra estrutura supersecundária:</p>
+<pre><code>restrict 73-102; cartoon only; color structure</code></pre>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Embora esteja inserida em um estrutura supersecundária <em>alfa-beta-alfa</em>, trata-se de um <em>motivo</em>, estrutura que se repete em larga extensão em proteínas. No caso, o motivo <em>alfa-volta-alfa</em>, ou grampo alfa-alfa.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outra estrutura supersecundária curiosa até no nome é o <em>sanduiche beta</em> apresentado pela estrutura [1bmw.pdb]((https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=1bmw&amp;script=Console){target=“_blank”}. Efetue a renderização padrão de <em>cartoon</em> e coloração por estrutura, e observe a razão do nome pela justaposição de duas folhas beta antiparalelas.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É possível conhecer todas as estruturas secundárias e motivos de uma proteína por um sítio correlato ao PDB: <a href="http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/\GetPage.pl?pdbcode=index.html">PDBSum Database</a>. Acesse-o, busque a carboxipeptidase (<em>1yme</em>), escolha a <em>aba Protein</em>, e veja a riqueza de estruturas secundárias e motivos da carboxipeptidase, todos com <em>links</em> para outras informações e sítios correlatos na internete.</p>
+<!--  Pra interagir com o Jmol carregado com a carboxipeptidase, selecione no sítio do PDB Sum a estrutura \emph{beta hairpin} clicando em seu \emph{link}. -->
+<!--  A janela aberta informa que esse \textbf{grampo beta\index{grampo beta}} vai do resíduo Val33 a Arg40. Pois bem, identifique-o selecionando no Jmol, marcando antes a proteína com representação de arame: \emph{select all; backbone only; color grey; select 33-40; wireframe only; wireframe 50; color magenta}. -->
+<!--  Para outra estrutura supersecundária, baixe agora o arquivo "1kt7.pdb", proteína ligadora de retinol. Visualize-a como de praxe em cartoon. Gire a estrutura. O trecho em amarelo compreende a estrutura supersecundária denominada \textbf{barril-beta\index{barril beta}}.  -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1kt7-barrelbk} -->
+<!-- \caption{Barril beta, outra estrutura supersecundária encontrada em proteína ligadora de retinol.} -->
+<!-- \label{1kt7-barrelbk} -->
+<!-- \end{figure} -->
+<!--  Também existe o \textbf{barril-alfa\index{barril alfa}}. Carregue "3lay.pdb", uma sequência de proteína ligadora de zinco em salmonela. Experimente a visualização por \emph{cartoon} e coloração por estrutura e gire a molécula. -->
+<!--  Outra estrutura supersecundária muito comum na interação com fendas de ácidos nucleicos é denominada\textbf{ hélice-volta-hélice}. Como exemplo, pode ser encontrada no domínio da proteína ligadora de DNA do repressor \emph{lac}, "1lcc.pdb". Carregue a estrutura, forneça uma visualização adequada, e veja como se dá sua interação com o DNA. -->
+<!--  Várias outras estruturas supersecundárias podem ocorrer nas proteínas, exemplificando o \textbf{dedo de zinco\index{dedo de zinco}} (``zinc finger''), o \index{zíper de leucina}\textbf{zíper de leucina }(``leucine zipper''), a \index{mão EF}\textbf{mão EF} (``EF hand''), e a \index{ chave grega}\textbf{chave grega} (``Greek key'').  -->
+<!--  O dedo de zinco (Figura~\ref{1aaybk}) e o ziper de leucina são comumente encontrados na interação com DNA. Experimente carregar "1aay.pdb" e digitar a sequência: \emph{cartoon only; color structure; select hetero and not solvent; spacefill 300; color cpk}. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1aay-bk} -->
+<!-- \caption{Dedo de zinco, tal como complexado a DNA. Os átomos de zinco estão representados em cinza.} -->
+<!-- \label{1aaybk} -->
+<!-- \end{figure} -->
+<!--  Já para se ter uma ideia do ziper de leucina (Figura~\ref{1ysa-bk}), carregue "1ysa.pdb" e digite: \emph{cartoon only; color structure; select leu; spacefill 300; color cpk}. Além do caráter anfipático das hélices, sua interação com o DNA dá-se por resíduos positivos frente à natureza ácida da dupla fita: \emph{select positive;wireframe 100;color lightblue}. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1ysa-bk} -->
+<!-- \caption{Ziper de leucina presente em complexo proteína-DNA.} -->
+<!-- \label{1ysa-bk} -->
+<!-- \end{figure} -->
+<!--  Por sua vez, a chamada mão EF (Figura~\ref{1cll-EFbk}) é um motivo encontrado comumente em proteínas ligadoras de íons cálcio, tais como a calmodulina, "1cll.pdb". Carregue a estrutura, forneça a visualização de costume e digite: \emph{select hetero and not solvent; spacefill 300; color cpk}. Clicando em uma esfera verde, surge no Console sua identificação, um átomo de cálcio.  -->
+<!--  Para destacar o motivo, digite: \emph{select 117-147;color white}. Como já deve ter percebido, esse motivo é semelhante ao de hélice-volta-hélice, mas distingui-se desse por ser específico de ligações com cálcio.  -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1cll-EFbk} -->
+<!-- \caption{Mão EF encontrada na estrutura de calmodulina. Em verde estão representados os átomos de cálcio.} -->
+<!-- \label{1cll-EFbk} -->
+<!-- \end{figure} -->
+<!--  A chave grega (Figura~\ref{1a2t-greekbk}), outra estrutura supersecundária, compreende um arranjo de fitas antiparalelas, e pode ser visualizada em "1a2t.pdb", uma nuclease de estafilococo. Sua observação é um pouco difícil, portanto é necessário uma coloração mais específica, como segue (efetuá-la após a visualização de praxe):  -->
+<!--  Para evidenciar apenas as folhas, digite: \emph{restrict sheet; rockets only}. Para colorir: \emph{select 7-19;color red;select 21-28;color red;select 29-36;color green;select 71-77;color blue}. -->
+<!--  Então, lá vai: a primeira e a segunda fita coloridas em vermelho estão num arranjo antiparalelo entre si. A terceira fita em verde encontra-se antiparalela à primeira (vemelha), esboçando a chave grega. O desenho metafórico de uma chave grega, entretanto é melhor comparado à sua estrutura bidimensional encontrada nos livros. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1a2t-greekbk} -->
+<!-- \caption{Representação da estrutura supersecundária chave grega, presente em nuclease bacteriana.} -->
+<!-- \label{1a2t-greekbk} -->
+<!-- \end{figure} -->
+<!-- %%%%%%%%%%%%%%%%%Proteínas 3 -->
+<!-- \section {Estrutura Terciária} -->
+<!--  A \textbf{estrutura terciária\index{estrutura terciária}} é composta por uma única cadeia polipeptídica num arranjo tridimensional. Apesar de existir um número virtualmente infinito de possibilidades desses arranjos, as proteínas são por vezes classificadas em grupos com similaridade funcional ou estrutural comum, e mesmo filogenética. -->
+<!-- \subsection {Conservação\index{conservação}} -->
+<!--  Para se ter uma ideia da conservação estrutural terciária de proteínas, carregue a estrutura da proteína transportadora de elétrons citocromo \emph{c}, e a partir de 3 fontes: peixe, arroz, e levedura de padaria. Para tal, digite: \emph{ load files "5cyt.pdb" "1ccr.pdb" "1ycc.pdb"} (é necessário que os arquivos estejam no diretório raiz do programa). -->
+<!--  Represente as três simultaneamente e marque-as com cores distintas: \emph{model 0;select all; trace only;select 1.1; color white; select 2.1; color green;select 3.1; color blue}. Rotacione as estruturas e veja a conservação das mesmas em filos distintos. -->
+<!--  Está com dificuldade em perceber a conservação ? O Jmol permite uma animação das moléculas, útil para alinhamento estrutural. Para tanto, digite/cole: \emph{compare {1.1} {2.1}rotate translate 2; compare {3.1} {2.1}rotate translate 2;spin 15}. A imagem da Figura~\ref{alinham} apresenta o resultado dessa animação. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/alinham} -->
+<!-- \caption{Representação de citocromo \emph{c} alinhado estruturalmente a partir de fontes distintas (peixe, arroz e levedura) por comandos de animação.} -->
+<!-- \label{alinham} -->
+<!-- \end{figure} -->
+<!-- \subsection {Estabilidade conformacional\index{estabilidade conformacional}} -->
+<!--  Proteínas podem ser classificadas como globulares e fibrosas. Para o estudo de uma proteína globular, carregue a papaína, "9pap.pdb". Desapareça com o solvente e visualize-a como arame: \emph{restrict protein; wireframe only; wireframe 50}. -->
+<!--  Gire a estrutura e observe alguns detalhes: \emph{spin} (para parar, \emph{spin off}). -->
+<!--  Quantos resíduos de aminoácidos possui e qual sua sequência primária ? Digite: \emph{show sequence}. E sua estrutura secundária ? Digite: \emph{show info}. -->
+<!--  Como uma proteína pode estabilizar-se conformacionalmente ? Por forças covalentes e forças fracas. As primeiras residem na ligação peptídica presente na estrutura, em número de "n-1" aminoácidos, bem como na proximidade de dois grupos tiol de resíduos de Cys, formando\textbf{ ligações dissulfeto\index{ligação dissulfeto}}. Essas estão representadas em amarelo na estrutura, mas podem ser destacadas digitando-se: \emph{trace only; ssbonds on; set ssbonds backbone;ssbonds 100}. Para visualizar os resíduos envolvidos na ligação bem como os tiois livres restantes, selecione apenas Cys. Na papaína, todas as Cys estão envolvidas na formação da ligação dissulfeto: \emph{ssbonds off;select cys; wireframe 100; color cpk}. -->
+<!--  Agora digite: \emph{restrict protein; trace only; calculate hbonds}. Observe a quantidade de ligações de H presentes na estrutura. Mas veja que elas parecem soltas na mesma. Corrija isso digitando: \emph{set hbonds backbone} (Figura~\ref{9papbk}). -->
+<!--  Se girar manualmente a molécula, perceberá ainda distribuição de ligações H entre folhas beta e hélices alfa da estrutura secundária da proteína. Para desligar as ligações de H:\emph{ hbonds off}. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/9papbk} -->
+<!-- \caption{Enzima papaína, ilustrando suas ligações dissulfeto entre resíduos de Cys (amarelo) e ligações de H no esqueleto carbônico.} -->
+<!-- \label{9papbk} -->
+<!-- \end{figure} -->
+<!--  Como todo átomo interage com outro por forças de dispersão ou deslocalização eletrônica (van der Waals e London), experimente visualizar as nuvens de van der Waals com: \emph{dots on} (``desligue'' com \emph{dots off}). -->
+<!--  Interações eletrostáticas também contribuem para a estabilização da proteína, como pode ser observado digitando-se:\emph{ trace 10;select charged;wireframe 50; color yellow}. Observe girando a estrutura que esses resíduos carregados encontram-se mais na superfície da proteína. -->
+<!--  Identifique as cargas opostas desses resíduos por: \emph{select positive;color blue;select negative; color red}. -->
+<!--  Por fim, o efeito hidrofóbico (ou interação hidrofóbica) participa como força fraca complementar para a conformação nativa da proteína, como pode ser observado inicialmente pelo posicionamento dos resíduos aromáticos por: \emph{select aromatic; wireframe 50; color green}.  -->
+<!--  Identifique os resíduos hidrofóbicos com cores distintas: \emph{select trp;color magenta;select phe; color pink;select tyr;color aquamarine}. Veja que enquanto Tyr fenólico interage com o solvente, Trp indólico permanece principamente no cerne proteico. Generalizando para todos os resíduos hidrofóbicos, é possível perceber sua contribuição maciça para a estabilidade da proteína: \emph{select hydrophobic;color green}. -->
+<!--  A estabilidade conformacional de uma proteína é portanto ditada por forças fortes e fracas entre seus átomos e o solvente, num arranjo tridimensional que depende das rotações permitidas em torno de cada resíduo de aminoácido. Analisando-se os \textbf{ângulos diedrais phi e psi} em torno da ligação peptídica (Capítulo~\ref{Peptídios}), é possível efetuar uma predição de estrutura terciária baseada na estrutura primária da molécula.  De modo mais exato, contudo, é possível a predição da estrutura secundária, tal como representado pelo diagrama de Ramachandran. -->
+<!-- \section {Diagrama de Ramachandran} -->
+<!--  Em síntese, tal representação no plano indica onde existem ângulos diedrais potenciais para a formação de $\alpha$-hélice, folhas-$\beta$ e voltas.  -->
+<!--  Com a estrutura da papaína (ou qualquer outra proteína) na janela principal, digite: \emph{plot ramachandran\index{diagrama de Ramachandran}}. A representação cromática pode ser interpretada no Jmol com o mesmo esquema de cores da renderização original. Dessa forma, folhas-$\beta$ são colorizadas em amarelo, $\alpha$-hélices em vermelho, e hélices \sfrac{3}{10} em púrpura. Observe a concentração de folhas beta e de $\alpha$-hélices em quadrantes distintos, e dependente dos ângulos diedrais. -->
+<!--  Observe também o espalhamento de pontos brancos fora dessas regiões. Clique em algumas que estão fora e identifique o aminoácido. Não por acaso, há um grande número de Gly, provavelmente participando de estruturas secundárias de voltas. Você pode generalizar essa visualização por: \emph{display gly}. -->
+<!--  E também pode verificar onde se encontram esses resíduos na estrutura tridimensional da proteína com: \emph{model 1.1}. -->
+<!--  Agora, retorne à representação original: \emph{plot ramachandran;display all}. -->
+<!--  Memorize a região coberta por hélices alfa (vermelha), e identifique a Pro: \emph{display all;display pro}. Observe que apenas um resíduo de Pro encontra-se numa região de predição de hélice alfa. Na prática, Pro não participa de hélices alfa por possuir um anel de pirrolidina na cadeia lateral, o qual bloqueia a orientação dessa estrutura.  -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/9pap-ramachandranbk} -->
+<!-- \caption{Diagrama de Ramachandran para os ângulos diedrais da papaína. A codificação de cores estabelece o vermelho para $\alpha$-hélice, amarelo para folhas-$\beta$ e púrpura para voltas \sfrac{3}{10}.} -->
+<!-- \label{9pap-ramachandranbk} -->
+<!-- \end{figure} -->
+<!--  Retorne à estrutura original: \emph{display all; model 1.1}. -->
+<!--  Outras representações de propriedades são também possíveis com o Jmol, como massa, hidrofobicidade, carga parcial (vide seção~\ref{uso}). Para ilustrar um plot tridimensional dos ângulos diedrais em função do número do resíduo, digite: \emph{plot properties phi psi resno}. -->
+<!-- \section {Grupos prostéticos\index{grupo prostético}} -->
+<!--  Várias proteínas dependem funcionalmente de estruturas orgânicas de origem distinta dos aminoácidos, os grupos prostéticos (apoproteína\index{apoproteína}+grupo prostético = holoproteína\index{holoproteína}). Para exemplificar, carregue o pigmento respiratório mioglobina, "1mbo.pdb". -->
+<!--  Desapareça com o solvente, represente-a como traço e ressalte o grupo prostético. Para identificar esse último faz-se necessário conhecer seu nome: \emph{show groups}. Nesse caso, o grupo aparece nominado como \emph{hem}.  -->
+<!--  Digitação completa: \emph{restrict protein;trace only;trace 30;select hem;wireframe 100; color cpk}. Rode a estrutura e veja seus detalhes. -->
+<!--  O grupo prostético da mioglobina (e também da hemoglobina e de alguns citocromos) configura um anel de porfirina (\textbf{grupo heme\index{grupo heme}}) formado por justaposição de quatro anéis pirrólicos, tendo o átomo de Fe como central para a interação com o oxigênio molecular. Para ressaltar esse oxigênio, digite: \emph{select oxy;spacefill 200} (Figura~\ref{1mbobk}). -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1mbobk} -->
+<!-- \caption{Estrutura terciária de oximioglobina, identificando a interação do grupo heme ao oxigênio molecular.} -->
+<!-- \label{1mbobk} -->
+<!-- \end{figure} -->
+<!--  Isole o grupo heme da proteína com o oxigênio molecular e aproxime-o: \emph{restrict (hem,oxy) and not protein;zoom 0}. Observe como a estrutura do grupo heme coordenado com o oxigênio é planar. Isso decorre da ligação do O$_{2}$ com o Fe(III) da porfirina da metamioglobina, resultando em Fe(II)-O$_{2}$, e convergindo a conformação ligeiramente curva do anel para planar.  -->
+<!-- \section {Proteínas fibrosas} -->
+<!--  Outro grande grupo ao lado de proteínas globulares é o de proteínas fibrosas. Para exemplificá-lo, carregue a estrutura do colágeno, "1cgd.pdb". -->
+<!--  Elimine o solvente e visualize em traço:\emph{ restrict protein;trace only;trace 100;color chain}. Gire a estrutura e perceba o entrelaçamento de 3 fitas.  -->
+<!--  Verifique se a estrutura secundária coincide: \emph{show info}. Observe que não há voltas nem dobramentos. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1cgdbk} -->
+<!-- \caption{Representação em arame da tripla hélice de colágeno, ressaltando o anel pirrolidínico de Pro e as ligações de H intercadeias (amarelo).} -->
+<!-- \label{1cgdbk} -->
+<!-- \end{figure} -->
+<!--  Mostre os resíduos de aminoácidos: \emph{show groups}. Veja que a molécula é composta apenas de Gly, Ala, Pro, e Hyp (hidroxiprolina). Esse entrelaçamento compreende as \textbf{hélices \sfrac{3}{10}\index{hélice \sfrac{3}{10}}} do colágeno (Figura~\ref{1cgdbk}).  -->
+<!--  Forneça a sequência primária: \emph{show sequence}. Observe como esses resíduos estão distribuidos.  -->
+<!--  Observe como seu estiramento é maior que o de hélices alfa, restringindo a observação a uma fita somente: \emph{restrict :C}. Na hélice hélices \sfrac{3}{10} do colágeno o passo é de 0,94 nm (maior, portanto, que para $\alpha$-hélice, 0,54 nm). Para isso, selecione o ícone de ''rotação'', dê um duplo clique numa parte da hélice e arraste o mouse para outra parte, até cobrir aproximadamente 0,9 nm (Figura~\ref{Figura-colag-passo}). -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/colag-passo} -->
+<!-- \caption{Representação em traço de uma fita de colágeno, exemplificando a distância do passo.} -->
+<!-- \label{Figura-colag-passo} -->
+<!-- \end{figure} -->
+<!--  Observe como as cadeias laterais estão distribuidas na hélice \sfrac{3}{10} do colágeno digitando:\emph{ select all;wireframe 80;color cpk}. -->
+<!--  Visualize as ligações de H e gire a molécula: \emph{calculate hbonds;hbonds 50;color hbonds yellow; hbonds 0.5}. -->
+<!--  Agora carregue outra proteína fibrosa, fibroína do bicho-da-seda, "1slk.pdb". -->
+<!--  Observe inicialmente a estrutura sem a visualização didática (\emph{cartoon} ou outras). Em uma primeira visão, parecem existir hélices alfa ? Digite: \emph{show info}. Veja que existem 15 cadeias polipeptídicas na molécula. Para visualizá-las: color chain. -->
+<!--  Como você espera que seja a interação entre as cadeias ? Digite: \emph{calculate hbonds;set hbonds backbone;hbonds 50;color hbonds white}. -->
+<!--  Qual a composição de aminoácidos ? Digite: \emph{show groups}. Veja que a estrutura é composta por um homopolímero de Ala e Gly, além de um N-terminal acetilado (ACE) e um C-terminal metilaminado (NME) em cada cadeia. -->
+<!--  Para melhor visualização, selecione um plano de fundo branco: \emph{background white} (e como as ligações H estão também brancas: \emph{hbonds off}). Agora restrinja a visão apenas para quatro cadeias: \emph{restrict(:A,:B,:C,:D);wireframe 50}. -->
+<!--  Rotacione a estrutura e observe seu paralelismo. Trata-se de que estrutura secundária ? Digite: \emph{rockets only}. Observe a orientação antiparalela do trecho de folha-$\beta$ representada (Figura~\ref{1slkbk}). -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1slkbk} -->
+<!-- \caption{Representação em foguete (\emph{rockets} da estrutura terciária de fibroína, apresentando as ligações de H entre suas 15 cadeis polipeptídicas.} -->
+<!-- \label{1slkbk} -->
+<!-- \end{figure} -->
+<!-- \section {Domínios} -->
+<!--  \textbf{Domínios\index{domínios}} compreendem unidades compactas enoveladas independentemente, e que podem consistir em combinações de motivos. -->
+<!--  Carregue a principal cadeia da piruvato quinase felina, "1pkm.pdb". Visualize-a como de praxe, gire a molécula e descubra quantos domínios possui. Veja que cada domínio constitui uma unidade compacta distinta. Pra facilitar: \emph{select 116-219;color blue;select 1-115;color green; select 220-388;color red; select 389-530;color pink} (Figura~\ref{1pkmbk}). -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1pkmbk} -->
+<!-- \caption{Ilustração dos domínios da piruvato quinase felina.} -->
+<!-- \label{1pkmbk} -->
+<!-- \end{figure} -->
+<!--  Por vezes os domínios podem constituir estruturas muito similares, embora em proteínas bem distintas. Para observar isso, carregue a lactato desidrogenase microbiana "1ldn.pdb". Se obtiver a informação da estrutura (\emph{show info}), verá que o modelo é constituido por duas moléculas cristalografadas. Adicione ao quadro (\emph{frame}) a succinato desidrogenase também microbiana "1emd.pdb". Para esse carregamento adicional, é necessário que a estrutura já esteja no diretório raiz do Jmol. Para isso, carregue a estrutura normalmente e salve-a clicando com o botão direito do mouse e selecionando File, Save. Para adicionar a estrutura à molécula anterior:\emph{ load append "1emd.pdb"}. -->
+<!--  Coloque ambas as moléculas mesmo quadro: \emph{frame*}. Agora visualize-as em fitas (cartoon), mas com cores distintas: \emph{select all; cartoon only; select 1.1; color white; select 2.1; color green}. -->
+<!--  Agora limite a piruvato quinase à sua cadeia A: \emph{select 1.1; restrict :A}. Aproxime as estruturas finais: \emph{zoom 0}. -->
+<!--  E, finalmente, alinhe\index{alinhamento estrutural} as estruturas dos domínios e rotacione as moléculas para visualizar sua similaridade: \emph{compare {2.1} {1.1} rotate translate 2}. Veja que, embora as enzimas tenham origem microbiana que atuam sobre substratos distintos, as cadeias possuem domínios estruturalmente semelhantes (Figura~\ref{1ldnbk}). -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1ldnbk} -->
+<!-- \caption{Sobreposição de domínios da lactato desidrogenase de \emph{Bacillus stearothermophilus} e da succinato desidrogenase de \emph{E. coli}, ilustrando sua similaridade.} -->
+<!-- \label{1ldnbk} -->
+<!-- \end{figure} -->
+<!-- %%%%%%%%%%%%%%Proteínas 4%%%%%%%%%%% -->
+<!-- \section {Estrutura Quaternária\index{estrutura quaternária}} -->
+<!--  Esse nível adicional de organização (hierarquia estrutural) já foi comentado nas seções anteriores. A estrutura quaternária compreende proteínas com mais de uma cadeia polipeptídica (colágeno, hemoglobina, IgG, por ex). Existe também a estrutura quinquenária, a qual corresponde a associações supramoleculares formadas pela combinação de cadeias polipeptídicas entre si (complexos proteicos), ou com cadeias nucleicas (nucleoproteínas), ou lipídicas (biomembranas).  -->
+<!--  Constituem dímeros, trímeros, e oligômeros, de modo geral, cada qual podendo exercer funções semelhantes ou bem distintas.  -->
+<!--  Funcionalmente, proteínas quaternárias possuem por vezes ações complexas interligadas, diversos sítios ativos exibindo cinética sequencial, bem como sítios de interação com ligantes naturais para modulação de sua atividade biológica. -->
+<!-- \subsection {Hemoglobina} -->
+<!--  Entre as estruturas quaternárias mais descritas encontra-se a hemoglobina, uma dentre várias proteínas de transporte de oxigênio, como leghemoglobinas (leguminosas), clorocruorinas (anelídeos), hemeritrina e hemocianina (invertebrados).  -->
+<!--  A hemoglobina humana pode ser carregada pelo arquivo "1thb.pdb". Visualize-a como \emph{cartoon} ou traço, e coloração por estrutura (\emph{color structure}).  -->
+<!--  Qual a estrutura predominante ? Existem dobramentos ? Quantas cadeias possui ? Certifique-se com: \emph{show info}. -->
+<!--  A hemoglobina existe em duas \textbf{conformações\index{conformação T e R}} distintas, T (baixa afinidade por O$_{2}$) e R (alta afinidade por O$_{2}$). O equilíbrio entre esses estados resulta na \textbf{cooperatividade\index{cooperatividade}} de sua ligação com as quatro moléculas de O$_{2}$. Nesse arquivo PDB, a hemoglobina (Hb) está ligada ao O$_{2}$ em apenas duas cadeias, mas cristalizada na conformação T.  -->
+<!--  Diferentemente da mioglobina, que satura-se com uma molécula de $O_{2}$ com uma afinidade única (curva hiperbólica de saturação), a hemoglobina liga-se ao O$_{2}$ com afinidades inicialmente crescentes, produzindo uma curva de saturação de aspecto sigmoidal. Exemplificando, a afinidade da 4a. molécula de oxigênio é cerca de 100 vezes maior que a da 1a. para a hemoglobina. -->
+<!--  Essa cooperatividade traduz uma mudança conformacional produzida na hemoglobina sob ligação ao O$_{2}$, de seu estado T ao estado R. Resumidamente, o movimento do plano do heme é transmitido para a hélice F por uma His (hélice F8, histidina proximal His87) ligada ao átomo de Fe. Mudanças conformacionais em uma unidade são transmitidas através das interfaces das subunidades $\alpha$$_{1}$-$\beta$$_{2}$ e $\alpha$$_{2}$-$\beta$$_{1}$.  -->
+<!--  Essa diferença entre as afinidades de Hb e Mb para o O$_{2}$ faz com que a saturação de Mb ocorra com uma pressão de 2,8 torr (capilares venosos, 30 torr), enquanto que a Hb com 30 torr (cem vezes maior; alvéolos pulmonares - 100 torr). -->
+<!--  Para visualizar a coloração por cadeias: \emph{color chain}. Observe que a Hb constitui um tetrâmero cujas cadeias são conformacionalmente idênticas às de mioglobina.  -->
+<!--  Visualize o grupo prostético identificado por: \emph{show groups}. Digite então: \emph{select hem;wireframe 100;color cpk}. E gire a estrutura (se desejar, \emph{spin}). -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1thbbk} -->
+<!-- \caption{Estrutura da hemoglobina, representada com suas quatro cadeias e grupos heme.} -->
+<!-- \label{1thbbk} -->
+<!-- \end{figure} -->
+<!--  Identifique as cadeias clicando em cada. Identifique também algum possível ligante, digitando: \emph{show groups}. Inositol hexafosfato (IHP) pode ser visualizado então por: \emph{select ihp;wireframe 50;color cpk}. IHP é análogo ao 2,3-BPG (bifosfoglicerato) de organismos não mamíferos. Gire a Hb e perceba que o IHP encontra-se interagindo com as cadeias numa fenda, próximo às subunidades B e D da proteína. -->
+<!--  O 2,3-BPG liga-se ao estado T de Hb mas não ao estado R, dessa forma reduzindo a afinidade da proteína ao oxigênio. Isso permite em torno de 40 \% de oxigênio livre no sangue venoso. A hemoglobina fetal não se liga tão fortemente ao 2,3-BPG, permitindo uma alta afinidade de O$_{2}$ pela proteína. -->
+<!--  Como as cadeias de Hb interagem entre si ? Quais subunidades ligam-se ao IHP ? Mude a renderização para \emph{spacefill }e gire a estrutura: \emph{select protein;spacefill}. Nomeie as cadeias para melhor compreensão: \emph{label \%c}. As cadeias A e B representam um\textbf{ dímero alfa/beta}. Observe os contatos extensos entre essas cadeias, bem como entre as cadeias C e D (também alfa/beta). Mas veja que há pouquíssimos contatos entre as cadeias A e C, bem como entre B e D, esses pares formados por cadeias alfa ou cadeias beta.  -->
+<!--  Para visualizar como o IHP com seus seis grupos fosfato negativos interage com a proteína, faça: \emph{select positive;color blue}. E se quiser observar a estrutura do IHP mais de perto: \emph{restrict ihp;zoom 0} -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1thb-ihpbk} -->
+<!-- \caption{Representação dos contatos de inositol hexafosfato com resíduos básicos na hemoglobina. As letras referem-se às cadeias hemoglobínicas.} -->
+<!-- \label{1thb-ihpbk} -->
+<!-- \end{figure} -->
+<!-- \subsubsection{Complexos Hb-O$_{2}$} -->
+<!--  Agora visualize apenas a cadeia C, colorida da região N-terminal à C-terminal, com seu grupo heme, e sem a sobreposição de esferas: \emph{select all; spacefill off; cartoon only; restrict :c and not ihp; color group; select hem and not iron and :c;wireframe 100;color cpk; zoom 0; select iron and :c; spacefill 200;color cpk}. -->
+<!--  Como o oxigênio molecular interage com a hemoglobina ? "Desligue" a representação de fitas (\emph{cartoon}): \emph{select protein;cartoon off}. -->
+<!--  Se achar confuso, represente a cadeia B da proteína de modo discreto, mas destacando suas hélices alfa: \emph{select protein and :c;trace only;trace 10; color groups}. -->
+<!--  Selecione os resíduos próximos do grupo heme: \emph{select (his58,his87,val62,phe43) and :c}. -->
+<!--  Defina esse conjunto de resíduos para se trabalhar posteriormente: \emph{define Obind selected}. -->
+<!--  Represente esses resíduos didaticamente: \emph{select Obind; wireframe 50;color cpk}. E apresente o oxigênio na estrutura: \emph{select oxy and :c;spacefill 150;color cpk}. -->
+<!--  Perceba a proximidade das cadeias laterais de His, Val e Phe ao centro do grupo heme. Pode-se visualizá-la melhor com: \emph{select (Obind, oxy and :c); dots on}. Para "desligar": \emph{dots off}. -->
+<!--  Pra facilitar, nomeie os resíduos selecionados no carbono alfa:\emph{ select Obind :*.ca; label "\%n \%R"; color label white}. -->
+<!--  A interação do átomo de ferro férrico (Fe$^{2+}$) do grupo heme dá-se por seis ligantes, quatro dos quais os nitrogênios tetrapirrólicos do \index{grupo prostético} \textbf{grupo prostético} da Hb, um do nitrogênio do anel imidazólico da histidina proximal His87 e o sexto ligante o oxigênio molecular entre o átomo de Fe e a cadeia lateral da histidina distal His58. Gire a estrutura e perceba porque His 87 é proximal. Complementarmente, Val62 e Phe43 contribuem para o ambiente hidrofóbico de interação com o oxigênio molecular. No \textbf{estado desoxigenado}, o átomo de Fe do grupo heme fica apenas pentacoordenado (Figura~\ref{1thb-bindbk}).  -->
+<!--  Pra fechar, uma curiosidade: a ligação do oxigênio desloca o Fe porfirínico dentro do plano tetrapirrólico em apenas 0,4 angstroms, o suficiente para deslocar a hélice alfa em que His87 proximal está inserida para perto do heme. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1thb-bindbk} -->
+<!-- \caption{Interação do oxigênio molecular com o anel porfirínico da cadeia C de hemoglobina. Estão representados também os resíduos que interagem com o átomo de ferro, incluindo as His proximal (His87) e distal (His58), bem como suas nuvens de Van der Waals.} -->
+<!-- \label{1thb-bindbk} -->
+<!-- \end{figure} -->
+<!-- \subsection {Outras proteínas quaternárias} -->
+<!--  Existe um grande número de proteínas quaternárias, algumas com dezenas de cadeias polipeptídicas e/ou com grande número de domínios. Durante as futuras discussões sobre atividade metabólica, algumas desses proteínas serão estudadas com maior riqueza mas, por ora, vamos apenas visualizar a complexidade estrutural em alguns exemplos. -->
+<!--  Carregue um anticorpo, imunoglobulina G, "1igt.pdb". Rotacione a molécula sem modificar sua visualização, e perceba tratar-se de uma proteína complexa, no formato clássico da letra "Y", e com ao menos três grandes domínios articulados por poucos resíduos.  -->
+<!--  Veja também que, no cabeçalho do Console, ocorrem diversos açúcares ligados à proteína, configurando uma glicoproteína. Renderize então a estrutura como de praxe: \emph{cartoon only;color structure}. Nominalmente, suas cadeias são divididas em pesadas e leves, as últimas formadas por folhas-$\beta$ que realizam o contato com o antígeno. -->
+<!--  Agora, quais as cadeias que contatam a superfície celular ? Girando a estrutura não fica claro. Entretanto, esses domínios das cadeias pesadas encontram-se ligados a carboidratos. Assim, visualize o "tronco do Y" por: \emph{select hetero and not solvent;wireframe 50;color cpk}. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1igtbk} -->
+<!-- \caption{Estrutura quaternária de anticorpo IgG apresentando carboidratos da glicoproteína necessários ao contato celular.} -->
+<!-- \label{1igtbk} -->
+<!-- \end{figure} -->
+<!--  Outra estrutura quaternária bastante complexa constitui o fotossistema de \emph{Rhodopseudomonas}, "1prc.pdb". Carregue-o e represente-o por fitas e coloração por cadeias: \emph{cartoon only;color chain}. -->
+<!--  Esse fotossistema é formado por duas subunidades idênticas (verde claro e escuro) e outras duas (rosa e vermelho) ligadas a diversos pigmentos fotossintéticos: \emph{select hetero;wireframe 100;color cpk}. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1prcbk} -->
+<!-- \caption{Fotossistema bacteriano de estrutura quaternária, apresentando diversos grupos prostéticos. Coloração por cadeias.} -->
+<!-- \label{1prcbk} -->
+<!-- \end{figure} -->
+<!--  Para um último exemplo de estrutura quaternária, a complexidade de uma chaperona bacteriana denominada GroEl (Figura~\ref{1aonbk}), proteína que auxilia o correto enovelamento de outras proteínas (1aon.pdb). Carregue a estrutura, forneça uma visualização apropriada com coloração por cadeia, como dantes, e só então rotacione a molécula para visualizar sua complexidade estrutural. Proteínas sob enovelamento interagem na cavidade central da GroEl. -->
+<!--  Chaperonas dependem de ATP para sua ação, o que pode ser observado por: \emph{select all; color grey; select adp;wireframe 300;color cpk}. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1aonbk} -->
+<!-- \caption{Chaperonina GroEl, proteína quaternária de 21 cadeias que auxilia no enovelamento de outras proteínas.} -->
+<!-- \label{1aonbk} -->
+<!-- \end{figure} -->
+<!-- \section {Estrutura quinquenária\index{estrutura quinquenária}} -->
+<!--  Exemplo do mais alto nível de complexidade estrutural de proteínas, a estrutura quinquenária pode ser observada em nucleossomos (nucleoproteínas), como em ``1aoi.pdb''. Carregue a molécula, e visualize-a como fitas e coloração por estrutura. -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1aoibk} -->
+<!-- \caption{Estrutura quinquenária de partícula central de um nucleossomo. A estrutura do DNA está representada em violeta, e a proteica em \emph{cartoon}.} -->
+<!-- \label{1aoibk} -->
+<!-- \end{figure} -->
+<!--  Ribossomos também exibem estrutura quinquenária, por sua interação com ácidos nucleicos. -->
+<!--  Para tal, carregue o arquivo 1qrs.pdb, e visualize a estrutura como fitas e coloração por estrutura ou cadeia. -->
+<!-- \end{enumerate}  -->
+<!-- \begin{figure} [h] -->
+<!-- \centering -->
+<!-- \linespread{1.0} -->
+<!-- \includegraphics[scale=0.4] {./Figs/1qrsbk} -->
+<!-- \caption{Complexo de RNA transportador com glutaminil-tRNA sintetase microbiana.} -->
+<!-- \label{1qrsbk} -->
+<!-- \end{figure} -->
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./peptidio.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Peptídios</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
